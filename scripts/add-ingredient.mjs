@@ -2,8 +2,8 @@
 /**
  * Append an ingredient to src/data/ingredients.json.
  *
- *   npm run add:ingredient -- "Chicken breast" --unit g --category Meat
- *   npm run add:ingredient -- "Onion" --unit "" --category Vegetables
+ *   npm run add:ingredient -- "Chicken breast" --unit g
+ *   npm run add:ingredient -- "Onion" --unit ""
  *
  * The id is slugified from the name and must be unique — this is where
  * uniqueness is enforced at authoring time; validate-data.mjs is the backstop
@@ -16,13 +16,12 @@ const { values, positionals } = parseArgs({
   allowPositionals: true,
   options: {
     unit: { type: 'string' },
-    category: { type: 'string', default: 'Uncategorised' },
   },
 });
 
 const name = positionals[0]?.trim();
 if (!name) {
-  fail('Usage: npm run add:ingredient -- "Chicken breast" --unit g --category Meat');
+  fail('Usage: npm run add:ingredient -- "Chicken breast" --unit g');
 }
 
 const id = slugify(name);
@@ -40,7 +39,6 @@ if (ingredients.some((item) => item.name.toLowerCase() === name.toLowerCase())) 
 ingredients.push({
   id,
   name,
-  category: values.category,
   // "" means the ingredient is counted rather than measured (2 onions).
   defaultUnit: values.unit ?? '',
   // Filled in later; see src/lib/nutrition.ts for the shape.

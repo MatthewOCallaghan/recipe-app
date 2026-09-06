@@ -40,8 +40,8 @@ a recipe's id is also its URL.
 ### Adding an ingredient
 
 ```bash
-npm run add:ingredient -- "Chicken breast" --unit g --category Meat
-npm run add:ingredient -- "Onion" --unit "" --category Vegetables
+npm run add:ingredient -- "Chicken breast" --unit g
+npm run add:ingredient -- "Onion" --unit ""
 ```
 
 `--unit ""` marks something counted rather than measured, so it shows as
@@ -111,7 +111,6 @@ counted ingredients):
 {
   "id": "chicken-breast",
   "name": "Chicken breast",
-  "category": "Meat",
   "defaultUnit": "g",
   "nutrition": { "basis": 100, "unit": "g", "kcal": 165, "protein": 31, "carbs": 0, "fat": 3.6 }
 }

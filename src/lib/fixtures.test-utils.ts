@@ -9,7 +9,6 @@ export function ingredient(id: string, over: Partial<Ingredient> = {}): Ingredie
   return {
     id,
     name: id.charAt(0).toUpperCase() + id.slice(1).replace(/-/g, ' '),
-    category: 'Test',
     defaultUnit: 'g',
     nutrition: null,
     ...over,

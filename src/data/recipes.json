@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "id": "chicken-enchiladas",
+    "name": "Chicken Enchiladas",
+    "mealType": "Main",
+    "baseServings": 4,
+    "prepMins": 15,
+    "cookMins": 35,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      { "ingredientId": "oil", "qty": 1, "unit": "tbsp" },
+      { "ingredientId": "chicken-breast", "qty": 500, "unit": "g", "prep": "chopped into chunks" },
+      { "ingredientId": "bell-pepper", "qty": 1, "unit": "", "prep": "diced" },
+      { "ingredientId": "chopped-tomatoes", "qty": 400, "unit": "g" },
+      { "ingredientId": "dried-oregano", "qty": 1, "unit": "tsp" },
+      { "ingredientId": "dried-basil", "qty": 1, "unit": "tsp" },
+      { "ingredientId": "ground-cumin", "qty": 1, "unit": "tsp" },
+      { "ingredientId": "tortilla-wraps", "qty": 4, "unit": "" },
+      { "ingredientId": "cheddar-cheese", "qty": 60, "unit": "g", "prep": "grated" },
+      { "ingredientId": "salsa", "qty": 50, "unit": "g" }
+    ],
+    "method": [
+      "Heat the oil in a large pan over medium heat.",
+      "Add the chicken and diced bell pepper and cook for 10-12 minutes, until the chicken is cooked through.",
+      "Meanwhile, in a bowl mix the chopped tomatoes, salsa, dried oregano, dried basil and ground cumin.",
+      "Stir half of the tomato mixture into the cooked chicken and pepper.",
+      "Warm the tortilla wraps in the microwave for 15 seconds.",
+      "Place the tortillas in a baking dish, spoon the chicken mixture and a little grated cheese into the centre of each, and roll up.",
+      "Pour the remaining tomato mixture over the rolled tortillas and scatter the remaining cheese on top."
+    ],
+    "cooking": {
+      "standard": [
+        "Bake at 180°C (fan) for 20 minutes, until the cheese has melted and the sauce is bubbling."
+      ],
+      "fromFrozen": [
+        "Bake from frozen at 200°C (fan) for 50 minutes, until piping hot throughout, the cheese has melted and the sauce is bubbling."
+      ]
+    }
+  }
+]

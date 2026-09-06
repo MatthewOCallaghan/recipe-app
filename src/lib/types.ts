@@ -29,7 +29,6 @@ export interface Ingredient {
   /** Slug primary key, e.g. "chicken-breast". Unique across ingredients.json. */
   id: string;
   name: string;
-  category: string;
   /** The unit this ingredient is normally measured in. "" means counted. */
   defaultUnit: string;
   nutrition: Nutrition | null;

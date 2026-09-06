@@ -28,7 +28,6 @@ const ingredients = defineCollection({
   schema: z.object({
     id: z.string().min(1),
     name: z.string().min(1),
-    category: z.string().min(1),
     defaultUnit: z.string(),
     nutrition: nutrition.nullable().default(null),
   }),
