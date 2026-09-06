@@ -9,16 +9,59 @@
     "freezerLifeMonths": 3,
     "image": null,
     "ingredients": [
-      { "ingredientId": "oil", "qty": 1, "unit": "tbsp" },
-      { "ingredientId": "chicken-breast", "qty": 500, "unit": "g", "prep": "chopped into chunks" },
-      { "ingredientId": "bell-pepper", "qty": 1, "unit": "", "prep": "diced" },
-      { "ingredientId": "chopped-tomatoes", "qty": 400, "unit": "g" },
-      { "ingredientId": "dried-oregano", "qty": 1, "unit": "tsp" },
-      { "ingredientId": "dried-basil", "qty": 1, "unit": "tsp" },
-      { "ingredientId": "ground-cumin", "qty": 1, "unit": "tsp" },
-      { "ingredientId": "tortilla-wraps", "qty": 4, "unit": "" },
-      { "ingredientId": "cheddar-cheese", "qty": 60, "unit": "g", "prep": "grated" },
-      { "ingredientId": "salsa", "qty": 50, "unit": "g" }
+      {
+        "ingredientId": "oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "chicken-breast",
+        "qty": 500,
+        "unit": "g",
+        "prep": "chopped into chunks"
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "qty": 1,
+        "unit": "",
+        "prep": "diced"
+      },
+      {
+        "ingredientId": "chopped-tomatoes",
+        "qty": 400,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "dried-basil",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "ground-cumin",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "tortilla-wraps",
+        "qty": 4,
+        "unit": ""
+      },
+      {
+        "ingredientId": "cheddar-cheese",
+        "qty": 60,
+        "unit": "g",
+        "prep": "grated"
+      },
+      {
+        "ingredientId": "salsa",
+        "qty": 50,
+        "unit": "g"
+      }
     ],
     "method": [
       "Heat the oil in a large pan over medium heat.",
@@ -48,20 +91,80 @@
     "freezerLifeMonths": 3,
     "image": null,
     "ingredients": [
-      { "ingredientId": "chicken-breast", "qty": 1500, "unit": "g" },
-      { "ingredientId": "bay-leaves", "qty": 3, "unit": "" },
-      { "ingredientId": "oil", "qty": 1.5, "unit": "tbsp" },
-      { "ingredientId": "garlic-cloves", "qty": 4, "unit": "", "prep": "crushed" },
-      { "ingredientId": "mushrooms", "qty": 800, "unit": "g", "prep": "sliced" },
-      { "ingredientId": "spinach", "qty": 375, "unit": "g" },
-      { "ingredientId": "butter", "qty": 150, "unit": "g" },
-      { "ingredientId": "plain-flour", "qty": 150, "unit": "g" },
-      { "ingredientId": "milk", "qty": 1125, "unit": "ml" },
-      { "ingredientId": "cheddar-cheese", "qty": 360, "unit": "g", "prep": "grated" },
-      { "ingredientId": "lasagne-sheets", "qty": 15, "unit": "" },
-      { "ingredientId": "parmesan", "qty": 75, "unit": "g", "prep": "grated" },
-      { "ingredientId": "dried-basil", "qty": 1.5, "unit": "tsp" },
-      { "ingredientId": "breadcrumbs", "qty": 1.5, "unit": "handful" }
+      {
+        "ingredientId": "chicken-breast",
+        "qty": 1500,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "bay-leaves",
+        "qty": 3,
+        "unit": ""
+      },
+      {
+        "ingredientId": "oil",
+        "qty": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 4,
+        "unit": "",
+        "prep": "crushed"
+      },
+      {
+        "ingredientId": "mushrooms",
+        "qty": 800,
+        "unit": "g",
+        "prep": "sliced"
+      },
+      {
+        "ingredientId": "spinach",
+        "qty": 375,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "butter",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "plain-flour",
+        "qty": 150,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "milk",
+        "qty": 1125,
+        "unit": "ml"
+      },
+      {
+        "ingredientId": "cheddar-cheese",
+        "qty": 360,
+        "unit": "g",
+        "prep": "grated"
+      },
+      {
+        "ingredientId": "lasagne-sheets",
+        "qty": 15,
+        "unit": ""
+      },
+      {
+        "ingredientId": "parmesan",
+        "qty": 75,
+        "unit": "g",
+        "prep": "grated"
+      },
+      {
+        "ingredientId": "dried-basil",
+        "qty": 1.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "breadcrumbs",
+        "qty": 1.5,
+        "unit": "handful"
+      }
     ],
     "method": [
       "Add the chicken breasts to a large saucepan with the bay leaves, cover with cold water, bring to the boil, then reduce to a simmer for 10-15 minutes, until cooked through.",
@@ -97,12 +200,40 @@
     "freezerLifeMonths": 3,
     "image": null,
     "ingredients": [
-      { "ingredientId": "tomatoes", "qty": 400, "unit": "g", "prep": "halved" },
-      { "ingredientId": "red-onion", "qty": 1, "unit": "", "prep": "quartered" },
-      { "ingredientId": "bell-pepper", "qty": 2, "unit": "", "prep": "roughly chopped" },
-      { "ingredientId": "olive-oil", "qty": 2, "unit": "tbsp" },
-      { "ingredientId": "garlic-cloves", "qty": 2, "unit": "", "prep": "bashed in their skins" },
-      { "ingredientId": "red-wine-vinegar", "qty": 1, "unit": "tbsp" }
+      {
+        "ingredientId": "tomatoes",
+        "qty": 400,
+        "unit": "g",
+        "prep": "halved"
+      },
+      {
+        "ingredientId": "red-onion",
+        "qty": 1,
+        "unit": "",
+        "prep": "quartered"
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "qty": 2,
+        "unit": "",
+        "prep": "roughly chopped"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 2,
+        "unit": "",
+        "prep": "bashed in their skins"
+      },
+      {
+        "ingredientId": "red-wine-vinegar",
+        "qty": 1,
+        "unit": "tbsp"
+      }
     ],
     "method": [
       "Heat the oven to 200°C (180°C fan) / gas 6.",
@@ -121,6 +252,93 @@
         "Microwave on the defrost setting for about 6 minutes.",
         "Then microwave on high in three 1-minute bursts, stirring between each, until piping hot throughout. Transfer to a jug as soon as the soup is loose enough to come away from the container.",
         "Ladle into bowls to serve."
+      ]
+    }
+  },
+  {
+    "id": "spinach-pasta-bake",
+    "name": "Spinach pasta bake",
+    "mealType": "Main",
+    "baseServings": 4,
+    "prepMins": 20,
+    "cookMins": 45,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "penne",
+        "qty": 450,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "onion",
+        "qty": 1,
+        "unit": "",
+        "prep": "chopped"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 1,
+        "unit": "",
+        "prep": "crushed"
+      },
+      {
+        "ingredientId": "chopped-tomatoes",
+        "qty": 600,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "dried-basil",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "spinach",
+        "qty": 270,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "ricotta-cheese",
+        "qty": 170,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "mozzarella",
+        "qty": 170,
+        "unit": "g",
+        "prep": "grated"
+      },
+      {
+        "ingredientId": "parmesan",
+        "qty": 40,
+        "unit": "g",
+        "prep": "grated"
+      }
+    ],
+    "method": [
+      "Place the penne in a large pan and pour over boiling water to cover. Cook according to packet instructions until just tender.",
+      "While the pasta is cooking, heat the olive oil in another pan over medium heat, then add the onion and garlic and cook, stirring, for 1 minute, until softened.",
+      "Add the chopped tomatoes, dried basil and dried oregano and stir to combine. Bring to the boil, then reduce to a gentle simmer while you prepare the other elements.",
+      "When the pasta is almost cooked, add the spinach to the pan and cook for 1 minute, until wilted, then drain and rinse the pasta and spinach through a colander.",
+      "Transfer the pasta and spinach mixture to a large baking dish. Pour over the sauce, then add all of the ricotta and half of the mozzarella. Stir the mixture until really well combined, then scatter over the remaining mozzarella and all of the parmesan."
+    ],
+    "cooking": {
+      "standard": [
+        "Bake at 180°C (fan 160°C) / gas mark 4 for 25-30 minutes, until golden and bubbling. Serve hot."
+      ],
+      "fromFrozen": [
+        "Defrost overnight in the fridge, then cook as above.",
+        "Or cook from frozen: double the cooking time, covering with foil if the top starts to catch, and ensure the dish is piping hot before serving."
       ]
     }
   }

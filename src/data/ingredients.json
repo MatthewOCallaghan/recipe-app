@@ -78,6 +78,12 @@
     "nutrition": null
   },
   {
+    "id": "mozzarella",
+    "name": "Mozzarella",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "mushrooms",
     "name": "Mushrooms",
     "defaultUnit": "g",
@@ -96,8 +102,20 @@
     "nutrition": null
   },
   {
+    "id": "onion",
+    "name": "Onion",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "parmesan",
     "name": "Parmesan",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "penne",
+    "name": "Penne",
     "defaultUnit": "g",
     "nutrition": null
   },
@@ -117,6 +135,12 @@
     "id": "red-wine-vinegar",
     "name": "Red wine vinegar",
     "defaultUnit": "tbsp",
+    "nutrition": null
+  },
+  {
+    "id": "ricotta-cheese",
+    "name": "Ricotta cheese",
+    "defaultUnit": "g",
     "nutrition": null
   },
   {
