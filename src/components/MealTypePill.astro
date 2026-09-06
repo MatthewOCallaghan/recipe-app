@@ -1,0 +1,12 @@
+---
+import type { MealType } from '../lib/types';
+
+interface Props {
+  mealType: MealType;
+  large?: boolean;
+}
+
+const { mealType, large = false } = Astro.props;
+---
+
+<span class:list={['meal-pill', { 'meal-pill--lg': large }]}>{mealType}</span>

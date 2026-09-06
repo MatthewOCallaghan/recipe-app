@@ -1,0 +1,97 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MealTypePill from '../../components/MealTypePill.astro';
+import PhotoPlaceholder from '../../components/PhotoPlaceholder.astro';
+import NutritionPanel from '../../components/NutritionPanel.astro';
+import PortionBar from '../../components/PortionBar';
+import ScaledIngredients from '../../components/ScaledIngredients';
+import CookMethodTabs from '../../components/CookMethodTabs';
+import { indexById } from '../../lib/scale';
+import { href } from '../../lib/paths';
+import type { Ingredient, Recipe } from '../../lib/types';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  const ingredients = await getCollection('ingredients');
+  const ingredientsById = indexById(ingredients.map((entry) => entry.data as Ingredient));
+
+  return recipes.map((entry) => {
+    const recipe = entry.data as Recipe;
+
+    // Only ship the ingredients this recipe actually references to the island.
+    const used: Record<string, Ingredient> = {};
+    for (const line of recipe.ingredients) {
+      const ingredient = ingredientsById[line.ingredientId];
+      if (ingredient) used[ingredient.id] = ingredient;
+    }
+
+    return { params: { id: recipe.id }, props: { recipe, ingredientsById: used } };
+  });
+}
+
+interface Props {
+  recipe: Recipe;
+  ingredientsById: Record<string, Ingredient>;
+}
+
+const { recipe, ingredientsById } = Astro.props;
+---
+
+<BaseLayout title={recipe.name} active="recipes">
+  <a class="back-link" href={href('/')}>← All recipes</a>
+
+  <div class="detail">
+    <PhotoPlaceholder name={recipe.name} image={recipe.image} class="detail__photo" />
+
+    <div>
+      <MealTypePill mealType={recipe.mealType} large />
+      <h1 class="detail__title">{recipe.name}</h1>
+
+      <div class="detail__meta">
+        <span>⏱ Prep {recipe.prepMins} min · Cook {recipe.cookMins} min</span>
+        {
+          recipe.freezerLifeMonths !== null && (
+            <span>❄ Freezes up to {recipe.freezerLifeMonths} months</span>
+          )
+        }
+      </div>
+
+      <PortionBar
+        recipeId={recipe.id}
+        recipeName={recipe.name}
+        baseServings={recipe.baseServings}
+        client:load
+      />
+
+      <div class="detail__columns">
+        <div>
+          <h2 class="section-heading">Ingredients</h2>
+          <ScaledIngredients recipe={recipe} ingredientsById={ingredientsById} client:load />
+          <NutritionPanel recipe={recipe} ingredientsById={ingredientsById} />
+        </div>
+
+        <div>
+          <h2 class="section-heading">Method</h2>
+          {
+            recipe.method.length === 0 ? (
+              <p class="page-intro">No method recorded yet.</p>
+            ) : (
+              <ol class="steps">
+                {recipe.method.map((text, index) => (
+                  <li class="steps__item">
+                    <span class="steps__n">{index + 1}.</span>
+                    <span>{text}</span>
+                  </li>
+                ))}
+              </ol>
+            )
+          }
+
+          <h2 class="section-heading">How to cook</h2>
+          <CookMethodTabs cooking={recipe.cooking} client:load />
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

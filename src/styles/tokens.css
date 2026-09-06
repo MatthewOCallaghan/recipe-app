@@ -1,0 +1,44 @@
+/*
+ * Farmhouse Notebook — the one theme we kept from the design prototype.
+ * The prototype also shipped "Modern Kitchen" and "Rustic Table" as editor
+ * props; those are deliberately not carried over. Values are copied verbatim
+ * from the mock.
+ */
+:root {
+  --font-heading: 'Caveat', cursive;
+  --font-body: 'Lora', serif;
+
+  --page-bg: oklch(98% 0.014 80);
+  --page-texture: radial-gradient(oklch(94% 0.02 80) 1px, transparent 1px);
+  --card-bg: oklch(99% 0.008 80);
+  --card-border: oklch(89% 0.015 80);
+  --card-shadow: oklch(90% 0.015 80);
+  --accent: #7c9070;
+
+  --text: oklch(28% 0.02 60);
+  --text-wordmark: oklch(30% 0.03 60);
+  --text-section: oklch(32% 0.03 60);
+  --text-soft: oklch(40% 0.02 60);
+  --text-muted: oklch(45% 0.02 60);
+  --text-dim: oklch(50% 0.02 60);
+  --text-faint: oklch(52% 0.02 60);
+  --text-danger: oklch(45% 0.05 40);
+
+  --rule-header: oklch(88% 0.02 80);
+  --rule-dashed: oklch(88% 0.015 80);
+  --rule-row: oklch(92% 0.012 80);
+  --rule-empty: oklch(80% 0.02 80);
+
+  --tint: oklch(96% 0.012 80);
+  --tint-strong: oklch(95% 0.015 80);
+
+  --stepper-border: oklch(70% 0.02 60);
+  --stepper-border-lg: oklch(60% 0.02 60);
+
+  --stripe-a: oklch(90% 0.03 140 / 0.5);
+  --stripe-b: oklch(94% 0.02 140 / 0.5);
+  --stripe-label: oklch(40% 0.03 140);
+  --stripe-label-bg: oklch(98% 0.01 80 / 0.85);
+
+  --selection: oklch(83% 0.05 140);
+}

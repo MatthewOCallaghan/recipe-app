@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import RecipeGrid, { type RecipeCardData } from '../components/RecipeGrid';
+
+const entries = await getCollection('recipes');
+
+const recipes: RecipeCardData[] = entries
+  .map((entry) => ({
+    id: entry.data.id,
+    name: entry.data.name,
+    mealType: entry.data.mealType,
+    baseServings: entry.data.baseServings,
+    prepMins: entry.data.prepMins,
+    cookMins: entry.data.cookMins,
+    freezerLifeMonths: entry.data.freezerLifeMonths,
+    image: entry.data.image,
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<BaseLayout active="recipes">
+  <p class="page-intro">
+    Tick a recipe to add it to your plan, set portions, then head to <strong>My Plan</strong> for one
+    combined shopping list.
+  </p>
+
+  <RecipeGrid recipes={recipes} client:load />
+</BaseLayout>

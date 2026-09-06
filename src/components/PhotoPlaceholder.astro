@@ -1,0 +1,16 @@
+---
+import { href } from '../lib/paths';
+
+interface Props {
+  name: string;
+  image?: string | null;
+  class?: string;
+}
+
+const { name, image = null, class: className } = Astro.props;
+const style = image ? `background-image:url('${href(`/images/recipes/${image}`)}')` : undefined;
+---
+
+<div class:list={['photo', className]} style={style} role={image ? 'img' : undefined} aria-label={image ? name : undefined}>
+  {!image && <span class="photo__label">photo: {name}</span>}
+</div>

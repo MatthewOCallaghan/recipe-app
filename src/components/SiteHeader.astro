@@ -1,0 +1,26 @@
+---
+import PlanBadge from './PlanBadge';
+import { SITE_TITLE } from '../config';
+import { href } from '../lib/paths';
+
+interface Props {
+  active: 'recipes' | 'plan';
+}
+
+const { active } = Astro.props;
+---
+
+<header class="site-header">
+  <a class="wordmark" href={href('/')}>{SITE_TITLE}</a>
+  <nav class="site-nav">
+    <a class="nav-link" href={href('/')} data-active={String(active === 'recipes')}>Recipes</a>
+    <a
+      class="nav-link nav-link--plan"
+      href={href('/plan')}
+      data-active={String(active === 'plan')}
+    >
+      My Plan
+      <PlanBadge client:load />
+    </a>
+  </nav>
+</header>

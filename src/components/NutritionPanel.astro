@@ -1,0 +1,44 @@
+---
+import { perPortion } from '../lib/nutrition';
+import type { Ingredient, Recipe } from '../lib/types';
+
+interface Props {
+  recipe: Recipe;
+  ingredientsById: Record<string, Ingredient>;
+}
+
+const { recipe, ingredientsById } = Astro.props;
+
+/**
+ * Null until every ingredient in the recipe has nutrition recorded, which is
+ * the case for all recipes today — so this section renders nothing at all and
+ * appears on its own once the figures are filled in.
+ */
+const nutrition = perPortion(recipe, ingredientsById);
+---
+
+{
+  nutrition && (
+    <section class="nutrition">
+      <h2 class="section-heading nutrition__heading">Nutrition (per portion)</h2>
+      <dl class="nutrition__grid">
+        <div class="nutrition__tile">
+          <dt>Calories</dt>
+          <dd>{nutrition.kcal} kcal</dd>
+        </div>
+        <div class="nutrition__tile">
+          <dt>Protein</dt>
+          <dd>{nutrition.protein} g</dd>
+        </div>
+        <div class="nutrition__tile">
+          <dt>Carbs</dt>
+          <dd>{nutrition.carbs} g</dd>
+        </div>
+        <div class="nutrition__tile">
+          <dt>Fat</dt>
+          <dd>{nutrition.fat} g</dd>
+        </div>
+      </dl>
+    </section>
+  )
+}

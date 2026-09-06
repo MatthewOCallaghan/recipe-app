@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PlanView from '../components/PlanView';
+import { indexById } from '../lib/scale';
+import type { Ingredient, Recipe } from '../lib/types';
+
+const recipes: Recipe[] = (await getCollection('recipes')).map((entry) => entry.data as Recipe);
+const ingredients: Ingredient[] = (await getCollection('ingredients')).map(
+  (entry) => entry.data as Ingredient,
+);
+const ingredientsById = indexById(ingredients);
+---
+
+<BaseLayout title="My Plan" active="plan">
+  <h1 class="page-title">My Plan</h1>
+
+  <PlanView recipes={recipes} ingredientsById={ingredientsById} client:only="preact">
+    <div class="empty-state" slot="fallback">
+      <p>Loading your plan…</p>
+    </div>
+  </PlanView>
+</BaseLayout>
