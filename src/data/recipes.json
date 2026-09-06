@@ -51,7 +51,7 @@
       { "ingredientId": "chicken-breast", "qty": 1500, "unit": "g" },
       { "ingredientId": "bay-leaves", "qty": 3, "unit": "" },
       { "ingredientId": "oil", "qty": 1.5, "unit": "tbsp" },
-      { "ingredientId": "garlic", "qty": 6, "unit": "tsp", "prep": "crushed" },
+      { "ingredientId": "garlic-cloves", "qty": 4, "unit": "", "prep": "crushed" },
       { "ingredientId": "mushrooms", "qty": 800, "unit": "g", "prep": "sliced" },
       { "ingredientId": "spinach", "qty": 375, "unit": "g" },
       { "ingredientId": "butter", "qty": 150, "unit": "g" },
@@ -84,6 +84,43 @@
       ],
       "fromFrozen": [
         "Bake from frozen at 180°C (fan 160°C) / gas mark 4 for 1 hour to 1 hour 10 minutes, until piping hot throughout. Cover with foil if it browns too quickly."
+      ]
+    }
+  },
+  {
+    "id": "roasted-red-pepper-soup",
+    "name": "Roasted red pepper soup",
+    "mealType": "Main",
+    "baseServings": 2,
+    "prepMins": 10,
+    "cookMins": 30,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      { "ingredientId": "tomatoes", "qty": 400, "unit": "g", "prep": "halved" },
+      { "ingredientId": "red-onion", "qty": 1, "unit": "", "prep": "quartered" },
+      { "ingredientId": "bell-pepper", "qty": 2, "unit": "", "prep": "roughly chopped" },
+      { "ingredientId": "olive-oil", "qty": 2, "unit": "tbsp" },
+      { "ingredientId": "garlic-cloves", "qty": 2, "unit": "", "prep": "bashed in their skins" },
+      { "ingredientId": "red-wine-vinegar", "qty": 1, "unit": "tbsp" }
+    ],
+    "method": [
+      "Heat the oven to 200°C (180°C fan) / gas 6.",
+      "Put the halved tomatoes, quartered onion and chopped peppers in a roasting tin, toss with the olive oil and season with salt and pepper. Nestle in the garlic cloves.",
+      "Roast for 25-30 minutes, until all the veg has softened and slightly caramelised.",
+      "Squeeze the garlic cloves out of their skins into the tin and discard the skins.",
+      "Mix the red wine vinegar into the tin, then blend everything with a stick or bullet blender, adding enough water to loosen to your preferred consistency (about 150ml).",
+      "Leave to cool, then divide between freezer containers and freeze."
+    ],
+    "cooking": {
+      "standard": [
+        "Reheat gently in a pan or the microwave, stirring occasionally, until piping hot throughout.",
+        "Taste for seasoning, then ladle into bowls to serve."
+      ],
+      "fromFrozen": [
+        "Microwave on the defrost setting for about 6 minutes.",
+        "Then microwave on high in three 1-minute bursts, stirring between each, until piping hot throughout. Transfer to a jug as soon as the soup is loose enough to come away from the container.",
+        "Ladle into bowls to serve."
       ]
     }
   }

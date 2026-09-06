@@ -54,9 +54,9 @@
     "nutrition": null
   },
   {
-    "id": "garlic",
-    "name": "Garlic",
-    "defaultUnit": "tsp",
+    "id": "garlic-cloves",
+    "name": "Garlic cloves",
+    "defaultUnit": "",
     "nutrition": null
   },
   {
@@ -90,6 +90,12 @@
     "nutrition": null
   },
   {
+    "id": "olive-oil",
+    "name": "Olive oil",
+    "defaultUnit": "tbsp",
+    "nutrition": null
+  },
+  {
     "id": "parmesan",
     "name": "Parmesan",
     "defaultUnit": "g",
@@ -102,6 +108,18 @@
     "nutrition": null
   },
   {
+    "id": "red-onion",
+    "name": "Red onion",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
+    "id": "red-wine-vinegar",
+    "name": "Red wine vinegar",
+    "defaultUnit": "tbsp",
+    "nutrition": null
+  },
+  {
     "id": "salsa",
     "name": "Salsa",
     "defaultUnit": "g",
@@ -110,6 +128,12 @@
   {
     "id": "spinach",
     "name": "Spinach",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "tomatoes",
+    "name": "Tomatoes",
     "defaultUnit": "g",
     "nutrition": null
   },
