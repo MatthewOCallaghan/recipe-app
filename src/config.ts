@@ -1,4 +1,4 @@
-export const SITE_TITLE = 'Batch Kitchen';
+export const SITE_TITLE = "Matthew's recipes";
 export const SITE_DESCRIPTION =
   'Browse your recipes, set portions, and build one combined shopping list.';
 

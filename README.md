@@ -1,11 +1,11 @@
-# Batch Kitchen
+# Matthew's recipes
 
 A personal static site for browsing recipes and working out ingredient
 quantities. Pick recipes, set portions on each, and get one combined shopping
 list with shared ingredients added together.
 
 Built with [Astro](https://astro.build) (static output) and Preact islands. The
-design follows the "Batch Kitchen" Claude Design prototype.
+design follows the "Matthew's recipes" Claude Design prototype.
 
 ## Getting started
 
