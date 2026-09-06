@@ -191,6 +191,67 @@
     }
   },
   {
+    "id": "chicken-nuggets",
+    "name": "Chicken nuggets",
+    "mealType": "Main",
+    "baseServings": 4,
+    "prepMins": 15,
+    "cookMins": 10,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "breadcrumbs",
+        "qty": 12,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "parmesan",
+        "qty": 6,
+        "unit": "tbsp",
+        "prep": "finely grated"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "qty": 3,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "black-pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "chicken-breast",
+        "qty": 4,
+        "unit": "",
+        "prep": "skinless and boneless, cut into cubes"
+      },
+      {
+        "ingredientId": "butter",
+        "qty": 115,
+        "unit": "g",
+        "prep": "melted"
+      }
+    ],
+    "method": [
+      "Heat the oven to 200°C (180°C fan) / gas mark 6.",
+      "Combine the breadcrumbs, grated parmesan, dried thyme and black pepper on a large plate or in a food bag.",
+      "Toss the chicken cubes in the melted butter, then turn them in the crumb mixture until well coated.",
+      "Place on a baking sheet and bake in the preheated oven for 10 minutes, until crisp and cooked through.",
+      "To freeze, leave to cool completely, then transfer to a labelled freezer bag or container."
+    ],
+    "cooking": {
+      "standard": [
+        "Serve straight away.",
+        "Or, if reheating from chilled, warm through in an oven at 180°C (160°C fan) / gas mark 4 for 8-10 minutes, until piping hot throughout."
+      ],
+      "fromFrozen": [
+        "Reheat from frozen in an oven at 200°C (180°C fan) / gas mark 6 for 12-15 minutes, until crisp and piping hot throughout."
+      ]
+    }
+  },
+  {
     "id": "roasted-red-pepper-soup",
     "name": "Roasted red pepper soup",
     "mealType": "Main",

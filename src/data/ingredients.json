@@ -12,6 +12,12 @@
     "nutrition": null
   },
   {
+    "id": "black-pepper",
+    "name": "Black pepper",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "breadcrumbs",
     "name": "Breadcrumbs",
     "defaultUnit": "",
@@ -56,6 +62,12 @@
   {
     "id": "dried-oregano",
     "name": "Dried oregano",
+    "defaultUnit": "tsp",
+    "nutrition": null
+  },
+  {
+    "id": "dried-thyme",
+    "name": "Dried thyme",
     "defaultUnit": "tsp",
     "nutrition": null
   },
