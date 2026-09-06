@@ -137,9 +137,14 @@ what lets them survive navigating between pages.
 ## Deploying
 
 Pushing to `main` builds and publishes to GitHub Pages via
-`.github/workflows/deploy.yml`. Two things to set up first:
+`.github/workflows/deploy.yml`. Setup:
 
-1. In `astro.config.mjs`, replace `YOUR-GITHUB-USERNAME` and make sure `BASE`
-   matches the repository name.
-2. In the repository settings, set Pages → Build and deployment → Source to
+1. In the repository settings, set Pages → Build and deployment → Source to
    **GitHub Actions**.
+2. The site is served from the custom domain `recipes.matthewocallaghan.uk`:
+   - `public/CNAME` holds the domain so each deploy keeps it.
+   - `astro.config.mjs` sets `SITE` to `https://recipes.matthewocallaghan.uk`
+     and `BASE` to `/`.
+   - DNS: a `CNAME` record for `recipes` → `matthewocallaghan.github.io`.
+   - In Pages settings, set Custom domain to `recipes.matthewocallaghan.uk` and
+     enable **Enforce HTTPS** once the certificate is issued.
