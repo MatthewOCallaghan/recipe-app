@@ -54,6 +54,12 @@
     "nutrition": null
   },
   {
+    "id": "double-cream",
+    "name": "Double cream",
+    "defaultUnit": "ml",
+    "nutrition": null
+  },
+  {
     "id": "dried-basil",
     "name": "Dried basil",
     "defaultUnit": "tsp",
@@ -62,6 +68,12 @@
   {
     "id": "dried-oregano",
     "name": "Dried oregano",
+    "defaultUnit": "tsp",
+    "nutrition": null
+  },
+  {
+    "id": "dried-rosemary",
+    "name": "Dried rosemary",
     "defaultUnit": "tsp",
     "nutrition": null
   },
@@ -87,6 +99,12 @@
     "id": "ground-cumin",
     "name": "Ground cumin",
     "defaultUnit": "tsp",
+    "nutrition": null
+  },
+  {
+    "id": "gruyere-cheese",
+    "name": "Gruyere cheese",
+    "defaultUnit": "g",
     "nutrition": null
   },
   {
@@ -153,6 +171,12 @@
     "id": "plain-rice",
     "name": "Plain rice",
     "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "potatoes",
+    "name": "Potatoes",
+    "defaultUnit": "",
     "nutrition": null
   },
   {

@@ -82,6 +82,67 @@
     }
   },
   {
+    "id": "chicken-nuggets",
+    "name": "Chicken nuggets",
+    "mealType": "Main",
+    "baseServings": 4,
+    "prepMins": 15,
+    "cookMins": 10,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "breadcrumbs",
+        "qty": 12,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "parmesan",
+        "qty": 6,
+        "unit": "tbsp",
+        "prep": "finely grated"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "qty": 3,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "black-pepper",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "chicken-breast",
+        "qty": 4,
+        "unit": "",
+        "prep": "skinless and boneless, cut into cubes"
+      },
+      {
+        "ingredientId": "butter",
+        "qty": 115,
+        "unit": "g",
+        "prep": "melted"
+      }
+    ],
+    "method": [
+      "Heat the oven to 200\u00b0C (180\u00b0C fan) / gas mark 6.",
+      "Combine the breadcrumbs, grated parmesan, dried thyme and black pepper on a large plate or in a food bag.",
+      "Toss the chicken cubes in the melted butter, then turn them in the crumb mixture until well coated.",
+      "Place on a baking sheet and bake in the preheated oven for 10 minutes, until crisp and cooked through.",
+      "To freeze, leave to cool completely, then transfer to a labelled freezer bag or container."
+    ],
+    "cooking": {
+      "standard": [
+        "Serve straight away.",
+        "Or, if reheating from chilled, warm through in an oven at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 8-10 minutes, until piping hot throughout."
+      ],
+      "fromFrozen": [
+        "Reheat from frozen in an oven at 200\u00b0C (180\u00b0C fan) / gas mark 6 for 12-15 minutes, until crisp and piping hot throughout."
+      ]
+    }
+  },
+  {
     "id": "chicken-mushroom-and-spinach-lasagne",
     "name": "Chicken, mushroom and spinach lasagne",
     "mealType": "Main",
@@ -191,63 +252,67 @@
     }
   },
   {
-    "id": "chicken-nuggets",
-    "name": "Chicken nuggets",
-    "mealType": "Main",
-    "baseServings": 4,
+    "id": "potato-dauphinoise",
+    "name": "Potato dauphinoise",
+    "mealType": "Side",
+    "baseServings": 6,
     "prepMins": 15,
-    "cookMins": 10,
+    "cookMins": 30,
     "freezerLifeMonths": 3,
     "image": null,
     "ingredients": [
       {
-        "ingredientId": "breadcrumbs",
-        "qty": 12,
-        "unit": "tbsp"
+        "ingredientId": "potatoes",
+        "qty": 8,
+        "unit": "",
+        "prep": "large, Maris Piper, peeled and sliced as thinly as possible"
       },
       {
-        "ingredientId": "parmesan",
-        "qty": 6,
-        "unit": "tbsp",
-        "prep": "finely grated"
+        "ingredientId": "double-cream",
+        "qty": 600,
+        "unit": "ml"
       },
       {
-        "ingredientId": "dried-thyme",
+        "ingredientId": "milk",
+        "qty": 360,
+        "unit": "ml"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 1,
+        "unit": "",
+        "prep": "crushed"
+      },
+      {
+        "ingredientId": "dried-rosemary",
         "qty": 3,
         "unit": "tsp"
       },
       {
-        "ingredientId": "black-pepper",
-        "qty": 1,
-        "unit": "tsp"
-      },
-      {
-        "ingredientId": "chicken-breast",
-        "qty": 4,
-        "unit": "",
-        "prep": "skinless and boneless, cut into cubes"
-      },
-      {
-        "ingredientId": "butter",
-        "qty": 115,
+        "ingredientId": "gruyere-cheese",
+        "qty": 200,
         "unit": "g",
-        "prep": "melted"
+        "prep": "grated"
       }
     ],
     "method": [
-      "Heat the oven to 200°C (180°C fan) / gas mark 6.",
-      "Combine the breadcrumbs, grated parmesan, dried thyme and black pepper on a large plate or in a food bag.",
-      "Toss the chicken cubes in the melted butter, then turn them in the crumb mixture until well coated.",
-      "Place on a baking sheet and bake in the preheated oven for 10 minutes, until crisp and cooked through.",
-      "To freeze, leave to cool completely, then transfer to a labelled freezer bag or container."
+      "Preheat the oven to 180\u00b0C (160\u00b0C fan) / gas mark 4 and grease a shallow baking dish with butter.",
+      "Peel the potatoes and slice as thinly as possible, ideally using a mandolin or the slicing blade of a food processor.",
+      "Put the cream, milk, garlic and dried rosemary in a large pan with a generous grinding of salt and pepper. Place over a low heat, stirring occasionally, until the mixture is warmed but not boiling.",
+      "Add the potato slices to the pan, ensuring they are all submerged in the liquid, and leave to cook for 8-10 minutes, until just tender but still holding their shape.",
+      "Remove from the heat, then gently tip the mixture into the prepared baking dish, spreading out the potatoes so that they cover the surface in an even layer.",
+      "Sprinkle the grated gruyere over, then bake in the oven for 20 minutes, until the potatoes are cooked and the sauce has thickened.",
+      "If you are making this to freeze, remove it from the oven before the top has browned, as it will be baked again later. If you are eating it now, leave it until the top is beautifully golden and bubbling.",
+      "To freeze, set aside until cooled, then freeze the dauphinoise whole or cut into individual portions. Cover with a layer of clingfilm followed by a layer of foil, label and freeze flat for up to 3 months."
     ],
     "cooking": {
       "standard": [
-        "Serve straight away.",
-        "Or, if reheating from chilled, warm through in an oven at 180°C (160°C fan) / gas mark 4 for 8-10 minutes, until piping hot throughout."
+        "Serve hot as an accompaniment to roast meats and vegetables, or a big bowl on its own.",
+        "If reheating from chilled, bake at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 15-20 minutes, until piping hot throughout."
       ],
       "fromFrozen": [
-        "Reheat from frozen in an oven at 200°C (180°C fan) / gas mark 6 for 12-15 minutes, until crisp and piping hot throughout."
+        "Defrost fully, then bake at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 15-20 minutes, until piping hot throughout.",
+        "Or cook from frozen: bake at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 30 minutes, ensuring the dauphinoise is piping hot before serving."
       ]
     }
   },
