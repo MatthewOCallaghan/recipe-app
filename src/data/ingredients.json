@@ -24,6 +24,12 @@
     "nutrition": null
   },
   {
+    "id": "carrot",
+    "name": "Carrot",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "cheddar-cheese",
     "name": "Cheddar cheese",
     "defaultUnit": "g",
@@ -51,6 +57,12 @@
     "id": "dried-oregano",
     "name": "Dried oregano",
     "defaultUnit": "tsp",
+    "nutrition": null
+  },
+  {
+    "id": "eggs",
+    "name": "Eggs",
+    "defaultUnit": "",
     "nutrition": null
   },
   {
@@ -126,6 +138,12 @@
     "nutrition": null
   },
   {
+    "id": "plain-rice",
+    "name": "Plain rice",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "red-onion",
     "name": "Red onion",
     "defaultUnit": "",
@@ -144,9 +162,21 @@
     "nutrition": null
   },
   {
+    "id": "salmon-fillets",
+    "name": "Salmon fillets",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "salsa",
     "name": "Salsa",
     "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "soy-sauce",
+    "name": "Soy sauce",
+    "defaultUnit": "ml",
     "nutrition": null
   },
   {

@@ -74,10 +74,10 @@
     ],
     "cooking": {
       "standard": [
-        "Bake at 180°C (fan) for 20 minutes, until the cheese has melted and the sauce is bubbling."
+        "Bake at 180\u00b0C (fan) for 20 minutes, until the cheese has melted and the sauce is bubbling."
       ],
       "fromFrozen": [
-        "Bake from frozen at 200°C (fan) for 50 minutes, until piping hot throughout, the cheese has melted and the sauce is bubbling."
+        "Bake from frozen at 200\u00b0C (fan) for 50 minutes, until piping hot throughout, the cheese has melted and the sauce is bubbling."
       ]
     }
   },
@@ -183,10 +183,10 @@
     ],
     "cooking": {
       "standard": [
-        "Bake at 180°C (fan 160°C) / gas mark 4 for 45-50 minutes, until piping hot throughout and golden on top. Cover with foil if it browns too quickly."
+        "Bake at 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 45-50 minutes, until piping hot throughout and golden on top. Cover with foil if it browns too quickly."
       ],
       "fromFrozen": [
-        "Bake from frozen at 180°C (fan 160°C) / gas mark 4 for 1 hour to 1 hour 10 minutes, until piping hot throughout. Cover with foil if it browns too quickly."
+        "Bake from frozen at 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 1 hour to 1 hour 10 minutes, until piping hot throughout. Cover with foil if it browns too quickly."
       ]
     }
   },
@@ -236,7 +236,7 @@
       }
     ],
     "method": [
-      "Heat the oven to 200°C (180°C fan) / gas 6.",
+      "Heat the oven to 200\u00b0C (180\u00b0C fan) / gas 6.",
       "Put the halved tomatoes, quartered onion and chopped peppers in a roasting tin, toss with the olive oil and season with salt and pepper. Nestle in the garlic cloves.",
       "Roast for 25-30 minutes, until all the veg has softened and slightly caramelised.",
       "Squeeze the garlic cloves out of their skins into the tin and discard the skins.",
@@ -252,6 +252,79 @@
         "Microwave on the defrost setting for about 6 minutes.",
         "Then microwave on high in three 1-minute bursts, stirring between each, until piping hot throughout. Transfer to a jug as soon as the soup is loose enough to come away from the container.",
         "Ladle into bowls to serve."
+      ]
+    }
+  },
+  {
+    "id": "salmon-fried-rice",
+    "name": "Salmon fried rice",
+    "mealType": "Main",
+    "baseServings": 4,
+    "prepMins": 15,
+    "cookMins": 15,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "plain-rice",
+        "qty": 360,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "salmon-fillets",
+        "qty": 3,
+        "unit": ""
+      },
+      {
+        "ingredientId": "carrot",
+        "qty": 2,
+        "unit": "",
+        "prep": "peeled and sliced into ribbons"
+      },
+      {
+        "ingredientId": "onion",
+        "qty": 1,
+        "unit": "",
+        "prep": "chopped"
+      },
+      {
+        "ingredientId": "bell-pepper",
+        "qty": 1,
+        "unit": "",
+        "prep": "deseeded and chopped"
+      },
+      {
+        "ingredientId": "soy-sauce",
+        "qty": 120,
+        "unit": "ml"
+      },
+      {
+        "ingredientId": "eggs",
+        "qty": 3,
+        "unit": "",
+        "prep": "beaten"
+      }
+    ],
+    "method": [
+      "Cook the rice in a pan of boiling water over a medium heat according to packet instructions. Once cooked, drain, rinse and set aside.",
+      "Heat the olive oil in a frying pan over a medium heat, then add the salmon and cook for 3 minutes, removing and discarding the skin as the salmon cooks. Don't worry if the salmon flesh starts to break up as it cooks, as this helps it distribute through the finished dish.",
+      "Add the carrot, onion and bell pepper, then stir to combine. Using a wooden spoon or spatula, push the salmon and vegetable mixture to the side of the pan, then pour the beaten eggs into the centre and scramble them as they cook.",
+      "Add the rice to the pan along with the soy sauce, then stir everything until the salmon, vegetables and eggs are well distributed throughout and the rice is piping hot. Remove from the heat.",
+      "To freeze: set the rice aside until cooled to room temperature, then spoon into a labelled freezer bag or freezer-proof dish and freeze flat."
+    ],
+    "cooking": {
+      "standard": [
+        "Serve straight away, spooned into bowls.",
+        "Or, if reheating from chilled, warm through in a pan or microwave for 3-4 minutes, until piping hot."
+      ],
+      "fromFrozen": [
+        "Defrost fully in the fridge, then reheat in a microwave or pan for 3-4 minutes, until piping hot.",
+        "Or cook from frozen in an oven preheated to 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 30 minutes, until piping hot."
       ]
     }
   },
@@ -334,7 +407,7 @@
     ],
     "cooking": {
       "standard": [
-        "Bake at 180°C (fan 160°C) / gas mark 4 for 25-30 minutes, until golden and bubbling. Serve hot."
+        "Bake at 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 25-30 minutes, until golden and bubbling. Serve hot."
       ],
       "fromFrozen": [
         "Defrost overnight in the fridge, then cook as above.",
