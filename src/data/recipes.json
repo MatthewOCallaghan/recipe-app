@@ -252,6 +252,78 @@
     }
   },
   {
+    "id": "chocolate-chip-cookies",
+    "name": "Chocolate chip cookies",
+    "mealType": "Dessert",
+    "baseServings": 12,
+    "prepMins": 15,
+    "cookMins": 20,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "butter",
+        "qty": 115,
+        "unit": "g",
+        "prep": "softened"
+      },
+      {
+        "ingredientId": "caster-sugar",
+        "qty": 125,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "soft-light-brown-sugar",
+        "qty": 125,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "qty": 2,
+        "unit": "",
+        "prep": "lightly beaten"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "plain-flour",
+        "qty": 280,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "bicarbonate-of-soda",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "chocolate-chips",
+        "qty": 300,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Preheat the oven to 160\u00b0C fan and line several large baking sheets with baking paper.",
+      "Place the butter and both sugars in a large bowl and whisk together until pale and creamy.",
+      "Whisk the eggs and vanilla extract into the mixture until smooth.",
+      "Sift in the flour and bicarbonate of soda and beat together until well mixed, then stir in the chocolate chips.",
+      "Drop 12 large spoonfuls of the mixture onto the prepared baking sheets, spacing them well apart.",
+      "Bake in the preheated oven for 15-20 minutes, until set and golden brown.",
+      "Leave to cool on the baking sheets for 2-3 minutes, then transfer the cookies to a wire rack and leave to cool completely.",
+      "To freeze, make sure the cookies are completely cold, then wrap them individually in cling film."
+    ],
+    "cooking": {
+      "standard": [
+        "Serve warm or wait for them to cool."
+      ],
+      "fromFrozen": [
+        "Defrost in the microwave for 1 minute, then heat on high for 15 seconds."
+      ]
+    }
+  },
+  {
     "id": "potato-dauphinoise",
     "name": "Potato dauphinoise",
     "mealType": "Side",
@@ -430,7 +502,7 @@
         "unit": "ml"
       },
       {
-        "ingredientId": "eggs",
+        "ingredientId": "large-eggs",
         "qty": 3,
         "unit": "",
         "prep": "beaten"
