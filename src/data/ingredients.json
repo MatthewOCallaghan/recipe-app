@@ -12,6 +12,12 @@
     "nutrition": null
   },
   {
+    "id": "bicarbonate-of-soda",
+    "name": "Bicarbonate of soda",
+    "defaultUnit": "tsp",
+    "nutrition": null
+  },
+  {
     "id": "black-pepper",
     "name": "Black pepper",
     "defaultUnit": "",
@@ -36,6 +42,12 @@
     "nutrition": null
   },
   {
+    "id": "caster-sugar",
+    "name": "Caster sugar",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "cheddar-cheese",
     "name": "Cheddar cheese",
     "defaultUnit": "g",
@@ -44,6 +56,12 @@
   {
     "id": "chicken-breast",
     "name": "Chicken breast",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "chocolate-chips",
+    "name": "Chocolate chips",
     "defaultUnit": "g",
     "nutrition": null
   },
@@ -210,6 +228,12 @@
     "nutrition": null
   },
   {
+    "id": "soft-light-brown-sugar",
+    "name": "Soft light brown sugar",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "soy-sauce",
     "name": "Soy sauce",
     "defaultUnit": "ml",
@@ -231,6 +255,12 @@
     "id": "tortilla-wraps",
     "name": "Tortilla wraps",
     "defaultUnit": "",
+    "nutrition": null
+  },
+  {
+    "id": "vanilla-extract",
+    "name": "Vanilla extract",
+    "defaultUnit": "tsp",
     "nutrition": null
   }
 ]
