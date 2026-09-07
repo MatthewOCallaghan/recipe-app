@@ -278,10 +278,10 @@
         "unit": "g"
       },
       {
-        "ingredientId": "eggs",
+        "ingredientId": "large-eggs",
         "qty": 2,
         "unit": "",
-        "prep": "large, lightly beaten"
+        "prep": "lightly beaten"
       },
       {
         "ingredientId": "vanilla-extract",
@@ -502,7 +502,7 @@
         "unit": "ml"
       },
       {
-        "ingredientId": "eggs",
+        "ingredientId": "large-eggs",
         "qty": 3,
         "unit": "",
         "prep": "beaten"
