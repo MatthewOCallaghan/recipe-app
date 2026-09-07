@@ -305,23 +305,21 @@
       }
     ],
     "method": [
-      "Preheat the oven to 150\u00b0C and line several large baking sheets with baking paper.",
+      "Preheat the oven to 160\u00b0C fan and line several large baking sheets with baking paper.",
       "Place the butter and both sugars in a large bowl and whisk together until pale and creamy.",
       "Whisk the eggs and vanilla extract into the mixture until smooth.",
       "Sift in the flour and bicarbonate of soda and beat together until well mixed, then stir in the chocolate chips.",
       "Drop 12 large spoonfuls of the mixture onto the prepared baking sheets, spacing them well apart.",
       "Bake in the preheated oven for 15-20 minutes, until set and golden brown.",
       "Leave to cool on the baking sheets for 2-3 minutes, then transfer the cookies to a wire rack and leave to cool completely.",
-      "To freeze, make sure the cookies are completely cold, then layer them between sheets of baking paper in a labelled freezer bag or container."
+      "To freeze, make sure the cookies are completely cold, then wrap them individually in cling film."
     ],
     "cooking": {
       "standard": [
-        "Serve as they are, once cooled.",
-        "Or, to warm them through, put them in an oven at 150\u00b0C for 3-4 minutes, until the chocolate is soft again."
+        "Serve warm or wait for them to cool."
       ],
       "fromFrozen": [
-        "Leave to defrost at room temperature for about an hour.",
-        "Or warm from frozen in an oven at 150\u00b0C for 5-6 minutes, until soft and heated through."
+        "Defrost in the microwave for 1 minute, then heat on high for 15 seconds."
       ]
     }
   },
