@@ -612,5 +612,111 @@
         "Or cook from frozen: double the cooking time, covering with foil if the top starts to catch, and ensure the dish is piping hot before serving."
       ]
     }
+  },
+  {
+    "id": "turkey-cottage-pie",
+    "name": "Turkey cottage pie",
+    "mealType": "Main",
+    "baseServings": 6,
+    "prepMins": 25,
+    "cookMins": 60,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "olive-oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "onion",
+        "qty": 2,
+        "unit": "",
+        "prep": "large, diced"
+      },
+      {
+        "ingredientId": "carrot",
+        "qty": 3,
+        "unit": "",
+        "prep": "diced"
+      },
+      {
+        "ingredientId": "celery-sticks",
+        "qty": 2,
+        "unit": "",
+        "prep": "diced"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 3,
+        "unit": "",
+        "prep": "minced"
+      },
+      {
+        "ingredientId": "turkey-mince",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "tomato-puree",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "beef-or-chicken-stock",
+        "qty": 500,
+        "unit": "ml"
+      },
+      {
+        "ingredientId": "worcestershire-sauce",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "potatoes",
+        "qty": 1500,
+        "unit": "g",
+        "prep": "large, peeled and chopped"
+      },
+      {
+        "ingredientId": "butter",
+        "qty": 50,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "milk",
+        "qty": 100,
+        "unit": "ml"
+      },
+      {
+        "ingredientId": "black-pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "method": [
+      "Boil the potatoes in a large pan of water for 15-20 minutes, until tender.",
+      "Meanwhile, heat the olive oil in a large pan over medium heat. Add the onion, carrot and celery and cook for about 8 minutes, until softened.",
+      "Add the garlic and cook for 1 minute more.",
+      "Add the turkey mince and cook, breaking it up with a spoon, until browned through.",
+      "Stir in the tomato purée, stock, Worcestershire sauce and dried thyme, then simmer uncovered until the filling has thickened.",
+      "Drain the potatoes and mash with the butter, milk and black pepper until smooth.",
+      "Spread the turkey filling into an oven-safe dish, then top evenly with the mash, roughing up the surface with a fork.",
+      "To freeze, cool the pie completely first — within 1-2 hours, which keeps the mash texture good on reheating — then cover tightly and freeze in the dish."
+    ],
+    "cooking": {
+      "standard": [
+        "Bake at 200°C (fan 180°C) for 25-30 minutes, until golden and bubbling."
+      ],
+      "fromFrozen": [
+        "Bake from frozen, covered with foil, at 180°C (fan 160°C) for 1 hour.",
+        "Uncover and bake at 200°C (fan 180°C) for a further 20-30 minutes, until piping hot throughout and golden on top. Check the centre with a thermometer or by testing before serving, as a larger dish may need extra time."
+      ]
+    }
   }
 ]
