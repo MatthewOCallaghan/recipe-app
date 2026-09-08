@@ -324,6 +324,113 @@
     }
   },
   {
+    "id": "pork-and-apple-traybake",
+    "name": "Pork and apple traybake",
+    "mealType": "Main",
+    "baseServings": 6,
+    "prepMins": 30,
+    "cookMins": 65,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "pork-chops",
+        "qty": 1000,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "potatoes",
+        "qty": 800,
+        "unit": "g",
+        "prep": "large, peeled and cut into chunks"
+      },
+      {
+        "ingredientId": "carrot",
+        "qty": 4,
+        "unit": "",
+        "prep": "cut into chunks"
+      },
+      {
+        "ingredientId": "parsnip",
+        "qty": 3,
+        "unit": "",
+        "prep": "cut into chunks"
+      },
+      {
+        "ingredientId": "apple",
+        "qty": 3,
+        "unit": "",
+        "prep": "cored and cut into wedges"
+      },
+      {
+        "ingredientId": "red-onion",
+        "qty": 2,
+        "unit": "",
+        "prep": "cut into wedges"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 3,
+        "unit": "",
+        "prep": "crushed"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "qty": 3,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "beef-or-chicken-stock",
+        "qty": 150,
+        "unit": "ml",
+        "prep": "chicken stock"
+      },
+      {
+        "ingredientId": "cider-vinegar",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "dried-sage",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "qty": 2,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "dried-rosemary",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "black-pepper",
+        "qty": 1,
+        "unit": "tsp"
+      }
+    ],
+    "method": [
+      "Heat the oven to 200°C (fan 180°C). Arrange the potatoes, carrot and parsnip in a large roasting tray or oven-safe dish.",
+      "Heat half the olive oil in a large pan over medium-high heat and sear the pork chops on both sides until browned.",
+      "Add the seared pork chops, red onion and garlic to the tray with the potatoes and root vegetables. Whisk the remaining olive oil with the stock and cider vinegar, then pour over. Sprinkle with the dried sage, dried thyme, dried rosemary and black pepper, and toss everything to coat.",
+      "Roast uncovered for about 30 minutes, turning once, until the potatoes are starting to turn golden.",
+      "Tuck the apple wedges in among the other ingredients and roast for a further 20-25 minutes, until the pork chops are cooked through (at least 75°C in the centre) and the potatoes and vegetables are tender.",
+      "To freeze, cool completely then cover tightly and freeze in the dish."
+    ],
+    "cooking": {
+      "standard": [
+        "Serve straight away.",
+        "Or, if reheating from chilled, cover with foil and bake at 180°C (fan 160°C) for 20-25 minutes, until piping hot throughout."
+      ],
+      "fromFrozen": [
+        "Cover with foil and bake from frozen at 180°C (fan 160°C) for about 60 minutes.",
+        "Uncover, stir and turn everything, then bake at 200°C (fan 180°C) for a further 15-25 minutes, until piping hot throughout. Check the centre with a thermometer before serving, as a fuller dish may need extra time."
+      ]
+    }
+  },
+  {
     "id": "potato-dauphinoise",
     "name": "Potato dauphinoise",
     "mealType": "Side",

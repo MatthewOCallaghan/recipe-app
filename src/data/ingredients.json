@@ -1,5 +1,11 @@
 [
   {
+    "id": "apple",
+    "name": "Apple",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "bay-leaves",
     "name": "Bay leaves",
     "defaultUnit": "",
@@ -84,6 +90,12 @@
     "nutrition": null
   },
   {
+    "id": "cider-vinegar",
+    "name": "Cider vinegar",
+    "defaultUnit": "tbsp",
+    "nutrition": null
+  },
+  {
     "id": "courgette",
     "name": "Courgette",
     "defaultUnit": "",
@@ -110,6 +122,12 @@
   {
     "id": "dried-rosemary",
     "name": "Dried rosemary",
+    "defaultUnit": "tsp",
+    "nutrition": null
+  },
+  {
+    "id": "dried-sage",
+    "name": "Dried sage",
     "defaultUnit": "tsp",
     "nutrition": null
   },
@@ -192,6 +210,12 @@
     "nutrition": null
   },
   {
+    "id": "parsnip",
+    "name": "Parsnip",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "penne",
     "name": "Penne",
     "defaultUnit": "g",
@@ -206,6 +230,12 @@
   {
     "id": "plain-rice",
     "name": "Plain rice",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "pork-chops",
+    "name": "Pork chops",
     "defaultUnit": "g",
     "nutrition": null
   },
