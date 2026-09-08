@@ -78,6 +78,12 @@
     "nutrition": null
   },
   {
+    "id": "chicken-thighs",
+    "name": "Chicken thighs",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "chocolate-chips",
     "name": "Chocolate chips",
     "defaultUnit": "g",
@@ -99,6 +105,12 @@
     "id": "courgette",
     "name": "Courgette",
     "defaultUnit": "",
+    "nutrition": null
+  },
+  {
+    "id": "creme-fraiche",
+    "name": "Crème fraîche",
+    "defaultUnit": "g",
     "nutrition": null
   },
   {
@@ -164,6 +176,12 @@
   {
     "id": "lasagne-sheets",
     "name": "Lasagne sheets",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
+    "id": "leek",
+    "name": "Leek",
     "defaultUnit": "",
     "nutrition": null
   },

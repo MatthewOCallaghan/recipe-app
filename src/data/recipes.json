@@ -74,10 +74,10 @@
     ],
     "cooking": {
       "standard": [
-        "Bake at 180\u00b0C (fan) for 20 minutes, until the cheese has melted and the sauce is bubbling."
+        "Bake at 180°C (fan) for 20 minutes, until the cheese has melted and the sauce is bubbling."
       ],
       "fromFrozen": [
-        "Bake from frozen at 200\u00b0C (fan) for 50 minutes, until piping hot throughout, the cheese has melted and the sauce is bubbling."
+        "Bake from frozen at 200°C (fan) for 50 minutes, until piping hot throughout, the cheese has melted and the sauce is bubbling."
       ]
     }
   },
@@ -126,7 +126,7 @@
       }
     ],
     "method": [
-      "Heat the oven to 200\u00b0C (180\u00b0C fan) / gas mark 6.",
+      "Heat the oven to 200°C (180°C fan) / gas mark 6.",
       "Combine the breadcrumbs, grated parmesan, dried thyme and black pepper on a large plate or in a food bag.",
       "Toss the chicken cubes in the melted butter, then turn them in the crumb mixture until well coated.",
       "Place on a baking sheet and bake in the preheated oven for 10 minutes, until crisp and cooked through.",
@@ -135,10 +135,10 @@
     "cooking": {
       "standard": [
         "Serve straight away.",
-        "Or, if reheating from chilled, warm through in an oven at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 8-10 minutes, until piping hot throughout."
+        "Or, if reheating from chilled, warm through in an oven at 180°C (160°C fan) / gas mark 4 for 8-10 minutes, until piping hot throughout."
       ],
       "fromFrozen": [
-        "Reheat from frozen in an oven at 200\u00b0C (180\u00b0C fan) / gas mark 6 for 12-15 minutes, until crisp and piping hot throughout."
+        "Reheat from frozen in an oven at 200°C (180°C fan) / gas mark 6 for 12-15 minutes, until crisp and piping hot throughout."
       ]
     }
   },
@@ -244,10 +244,10 @@
     ],
     "cooking": {
       "standard": [
-        "Bake at 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 45-50 minutes, until piping hot throughout and golden on top. Cover with foil if it browns too quickly."
+        "Bake at 180°C (fan 160°C) / gas mark 4 for 45-50 minutes, until piping hot throughout and golden on top. Cover with foil if it browns too quickly."
       ],
       "fromFrozen": [
-        "Bake from frozen at 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 1 hour to 1 hour 10 minutes, until piping hot throughout. Cover with foil if it browns too quickly."
+        "Bake from frozen at 180°C (fan 160°C) / gas mark 4 for 1 hour to 1 hour 10 minutes, until piping hot throughout. Cover with foil if it browns too quickly."
       ]
     }
   },
@@ -305,7 +305,7 @@
       }
     ],
     "method": [
-      "Preheat the oven to 160\u00b0C fan and line several large baking sheets with baking paper.",
+      "Preheat the oven to 160°C fan and line several large baking sheets with baking paper.",
       "Place the butter and both sugars in a large bowl and whisk together until pale and creamy.",
       "Whisk the eggs and vanilla extract into the mixture until smooth.",
       "Sift in the flour and bicarbonate of soda and beat together until well mixed, then stir in the chocolate chips.",
@@ -320,6 +320,101 @@
       ],
       "fromFrozen": [
         "Defrost in the microwave for 1 minute, then heat on high for 15 seconds."
+      ]
+    }
+  },
+  {
+    "id": "creamy-chicken-leek-and-mushroom",
+    "name": "Creamy chicken, leek and mushroom",
+    "mealType": "Main",
+    "baseServings": 6,
+    "prepMins": 20,
+    "cookMins": 40,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "chicken-thighs",
+        "qty": 1000,
+        "unit": "g",
+        "prep": "boneless, cut into chunks"
+      },
+      {
+        "ingredientId": "leek",
+        "qty": 3,
+        "unit": "",
+        "prep": "sliced"
+      },
+      {
+        "ingredientId": "mushrooms",
+        "qty": 300,
+        "unit": "g",
+        "prep": "chestnut, sliced"
+      },
+      {
+        "ingredientId": "onion",
+        "qty": 1,
+        "unit": "",
+        "prep": "finely diced"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 2,
+        "unit": "",
+        "prep": "minced"
+      },
+      {
+        "ingredientId": "carrot",
+        "qty": 1,
+        "unit": "",
+        "prep": "thinly sliced"
+      },
+      {
+        "ingredientId": "spinach",
+        "qty": 100,
+        "unit": "g",
+        "prep": "baby"
+      },
+      {
+        "ingredientId": "beef-or-chicken-stock",
+        "qty": 400,
+        "unit": "ml",
+        "prep": "chicken stock"
+      },
+      {
+        "ingredientId": "creme-fraiche",
+        "qty": 200,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "dried-thyme",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "black-pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "method": [
+      "Brown the chicken: heat the olive oil in a large pan over medium-high heat. Brown the chicken thighs on all sides, then lift out and set aside.",
+      "Cook the vegetables: in the same pan, cook the leeks, onion and carrot until softened, about 6 minutes. Add the mushrooms and garlic and cook for a further 4 minutes.",
+      "Build the sauce: return the chicken to the pan with the stock, dried thyme and black pepper. Simmer until the chicken is cooked through.",
+      "Finish the sauce: stir in the crème fraîche and spinach until the spinach has wilted right down and the sauce is creamy, then remove from the heat.",
+      "To freeze, cool completely then transfer to an oven-safe dish, cover tightly and freeze."
+    ],
+    "cooking": {
+      "standard": [
+        "Serve straight away or, if reheating from chilled, cover with foil and bake at 180°C (fan 160°C) for 20-25 minutes, until piping hot throughout."
+      ],
+      "fromFrozen": [
+        "Cover with foil and bake from frozen at 180°C (fan 160°C) for 60-75 minutes, stirring gently partway through once the sauce has loosened enough, until piping hot throughout."
       ]
     }
   },
@@ -475,7 +570,7 @@
       }
     ],
     "method": [
-      "Preheat the oven to 180\u00b0C (160\u00b0C fan) / gas mark 4 and grease a shallow baking dish with butter.",
+      "Preheat the oven to 180°C (160°C fan) / gas mark 4 and grease a shallow baking dish with butter.",
       "Peel the potatoes and slice as thinly as possible, ideally using a mandolin or the slicing blade of a food processor.",
       "Put the cream, milk, garlic and dried rosemary in a large pan with a generous grinding of salt and pepper. Place over a low heat, stirring occasionally, until the mixture is warmed but not boiling.",
       "Add the potato slices to the pan, ensuring they are all submerged in the liquid, and leave to cook for 8-10 minutes, until just tender but still holding their shape.",
@@ -487,11 +582,11 @@
     "cooking": {
       "standard": [
         "Serve hot as an accompaniment to roast meats and vegetables, or a big bowl on its own.",
-        "If reheating from chilled, bake at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 15-20 minutes, until piping hot throughout."
+        "If reheating from chilled, bake at 180°C (160°C fan) / gas mark 4 for 15-20 minutes, until piping hot throughout."
       ],
       "fromFrozen": [
-        "Defrost fully, then bake at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 15-20 minutes, until piping hot throughout.",
-        "Or cook from frozen: bake at 180\u00b0C (160\u00b0C fan) / gas mark 4 for 30 minutes, ensuring the dauphinoise is piping hot before serving."
+        "Defrost fully, then bake at 180°C (160°C fan) / gas mark 4 for 15-20 minutes, until piping hot throughout.",
+        "Or cook from frozen: bake at 180°C (160°C fan) / gas mark 4 for 30 minutes, ensuring the dauphinoise is piping hot before serving."
       ]
     }
   },
@@ -541,7 +636,7 @@
       }
     ],
     "method": [
-      "Heat the oven to 200\u00b0C (180\u00b0C fan) / gas 6.",
+      "Heat the oven to 200°C (180°C fan) / gas 6.",
       "Put the halved tomatoes, quartered onion and chopped peppers in a roasting tin, toss with the olive oil and season with salt and pepper. Nestle in the garlic cloves.",
       "Roast for 25-30 minutes, until all the veg has softened and slightly caramelised.",
       "Squeeze the garlic cloves out of their skins into the tin and discard the skins.",
@@ -629,7 +724,7 @@
       ],
       "fromFrozen": [
         "Defrost fully in the fridge, then reheat in a microwave or pan for 3-4 minutes, until piping hot.",
-        "Or cook from frozen in an oven preheated to 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 30 minutes, until piping hot."
+        "Or cook from frozen in an oven preheated to 180°C (fan 160°C) / gas mark 4 for 30 minutes, until piping hot."
       ]
     }
   },
@@ -712,7 +807,7 @@
     ],
     "cooking": {
       "standard": [
-        "Bake at 180\u00b0C (fan 160\u00b0C) / gas mark 4 for 25-30 minutes, until golden and bubbling. Serve hot."
+        "Bake at 180°C (fan 160°C) / gas mark 4 for 25-30 minutes, until golden and bubbling. Serve hot."
       ],
       "fromFrozen": [
         "Defrost overnight in the fridge, then cook as above.",
