@@ -718,5 +718,96 @@
         "Uncover and bake at 200°C (fan 180°C) for a further 20-30 minutes, until piping hot throughout and golden on top. Check the centre with a thermometer or by testing before serving, as a larger dish may need extra time."
       ]
     }
+  },
+  {
+    "id": "turkey-stuffed-peppers",
+    "name": "Turkey stuffed peppers",
+    "mealType": "Main",
+    "baseServings": 6,
+    "prepMins": 25,
+    "cookMins": 55,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "bell-pepper",
+        "qty": 6,
+        "unit": "",
+        "prep": "large, halved and deseeded"
+      },
+      {
+        "ingredientId": "turkey-mince",
+        "qty": 800,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "plain-rice",
+        "qty": 125,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "onion",
+        "qty": 1,
+        "unit": "",
+        "prep": "finely diced"
+      },
+      {
+        "ingredientId": "courgette",
+        "qty": 1,
+        "unit": "",
+        "prep": "diced"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 2,
+        "unit": "",
+        "prep": "minced"
+      },
+      {
+        "ingredientId": "chopped-tomatoes",
+        "qty": 400,
+        "unit": "g",
+        "prep": "tinned"
+      },
+      {
+        "ingredientId": "dried-oregano",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "olive-oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "black-pepper",
+        "qty": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "cheddar-cheese",
+        "qty": 150,
+        "unit": "g",
+        "prep": "grated"
+      }
+    ],
+    "method": [
+      "Cook the rice: bring a pan of water to the boil, add the plain rice and simmer for about 12 minutes, until tender. Drain and set aside.",
+      "Cook the filling base: heat the olive oil in a large pan. Cook the onion and courgette until softened, about 5 minutes. Add the garlic and cook 1 minute more.",
+      "Brown the turkey: add the turkey mince and cook, breaking it up, until browned through.",
+      "Combine the filling: stir in the cooked rice, chopped tomatoes, dried oregano and black pepper. Simmer for a few minutes until slightly thickened.",
+      "Fill the peppers: arrange the pepper halves cut-side up in an oven-safe dish. Spoon the filling into each half, pressing down gently.",
+      "Top with cheese: sprinkle the grated cheddar over the top of each filled pepper.",
+      "To freeze, cool completely first — using cooked rice here keeps the texture right after freezing and reheating, since raw rice can go mushy or undercook when baked from frozen — then cover tightly and freeze in the dish."
+    ],
+    "cooking": {
+      "standard": [
+        "Cover with foil and bake at 190°C (fan 170°C) for 30 minutes, then uncover and bake until the cheese is golden and the peppers are tender."
+      ],
+      "fromFrozen": [
+        "Bake from frozen, covered with foil, at 180°C (fan 160°C) for 50 minutes.",
+        "Uncover and bake at 190°C (fan 170°C) until the peppers are tender and the filling is piping hot throughout. Peppers vary in size, so check the largest one is piping hot in the centre before serving."
+      ]
+    }
   }
 ]

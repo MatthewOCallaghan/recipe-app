@@ -84,6 +84,12 @@
     "nutrition": null
   },
   {
+    "id": "courgette",
+    "name": "Courgette",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "double-cream",
     "name": "Double cream",
     "defaultUnit": "ml",
