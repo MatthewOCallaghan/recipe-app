@@ -1,7 +1,15 @@
-import { useState } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
 import Stepper from './Stepper';
-import { $plan, $portions, changePortions, getPortions, togglePlan } from '../lib/store';
+import {
+  $plan,
+  $portions,
+  $recipeFilter,
+  changePortions,
+  getPortions,
+  setRecipeFilter,
+  togglePlan,
+  type RecipeFilter,
+} from '../lib/store';
 import { recipeHref, href } from '../lib/paths';
 import { MEAL_TYPES, type MealType } from '../lib/types';
 
@@ -21,10 +29,8 @@ interface Props {
   recipes: RecipeCardData[];
 }
 
-type Filter = 'All' | MealType;
-
 export default function RecipeGrid({ recipes }: Props) {
-  const [filter, setFilter] = useState<Filter>('All');
+  const filter = useStore($recipeFilter);
   const portions = useStore($portions);
   const plan = useStore($plan);
 
@@ -44,19 +50,22 @@ export default function RecipeGrid({ recipes }: Props) {
   // there is more than one to choose between.
   const presentTypes = MEAL_TYPES.filter((type) => recipes.some((r) => r.mealType === type));
   const showFilter = presentTypes.length > 1;
-  const visible = filter === 'All' ? recipes : recipes.filter((r) => r.mealType === filter);
+  // A filter carried over from earlier in the session may name a meal type this
+  // grid no longer has, which would leave nothing on screen — fall back to All.
+  const active: RecipeFilter = filter === 'All' || presentTypes.includes(filter) ? filter : 'All';
+  const visible = active === 'All' ? recipes : recipes.filter((r) => r.mealType === active);
 
   return (
     <>
       {showFilter && (
         <div class="pill-tabs recipe-filter" role="group" aria-label="Filter by meal type">
-          {(['All', ...presentTypes] as Filter[]).map((option) => (
+          {(['All', ...presentTypes] as RecipeFilter[]).map((option) => (
             <button
               key={option}
               type="button"
               class="pill-tab"
-              aria-pressed={filter === option}
-              onClick={() => setFilter(option)}
+              aria-pressed={active === option}
+              onClick={() => setRecipeFilter(option)}
             >
               {option}
             </button>
