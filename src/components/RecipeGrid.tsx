@@ -1,7 +1,9 @@
 import { useState } from 'preact/hooks';
 import { useStore } from '@nanostores/preact';
+import IngredientFilter from './IngredientFilter';
 import Stepper from './Stepper';
 import { $plan, $portions, changePortions, getPortions, togglePlan } from '../lib/store';
+import { filterByIngredients, type IngredientOption } from '../lib/ingredient-filter';
 import { recipeHref, href } from '../lib/paths';
 import { MEAL_TYPES, type MealType } from '../lib/types';
 
@@ -15,16 +17,21 @@ export interface RecipeCardData {
   cookMins: number;
   freezerLifeMonths: number | null;
   image: string | null;
+  /** Ids of the ingredients this recipe uses, for the ingredient filter. */
+  ingredientIds: string[];
 }
 
 interface Props {
   recipes: RecipeCardData[];
+  /** Every ingredient used by at least one recipe, sorted by name. */
+  ingredientOptions: IngredientOption[];
 }
 
 type Filter = 'All' | MealType;
 
-export default function RecipeGrid({ recipes }: Props) {
+export default function RecipeGrid({ recipes, ingredientOptions }: Props) {
   const [filter, setFilter] = useState<Filter>('All');
+  const [ingredientFilter, setIngredientFilter] = useState<string[]>([]);
   const portions = useStore($portions);
   const plan = useStore($plan);
 
@@ -44,10 +51,24 @@ export default function RecipeGrid({ recipes }: Props) {
   // there is more than one to choose between.
   const presentTypes = MEAL_TYPES.filter((type) => recipes.some((r) => r.mealType === type));
   const showFilter = presentTypes.length > 1;
-  const visible = filter === 'All' ? recipes : recipes.filter((r) => r.mealType === filter);
+  const byType = filter === 'All' ? recipes : recipes.filter((r) => r.mealType === filter);
+  const visible = filterByIngredients(byType, ingredientFilter);
+
+  function clearFilters(): void {
+    setFilter('All');
+    setIngredientFilter([]);
+  }
 
   return (
     <>
+      {ingredientOptions.length > 0 && (
+        <IngredientFilter
+          options={ingredientOptions}
+          selected={ingredientFilter}
+          onChange={setIngredientFilter}
+        />
+      )}
+
       {showFilter && (
         <div class="pill-tabs recipe-filter" role="group" aria-label="Filter by meal type">
           {(['All', ...presentTypes] as Filter[]).map((option) => (
@@ -64,61 +85,70 @@ export default function RecipeGrid({ recipes }: Props) {
         </div>
       )}
 
-      <div class="recipe-grid">
-        {visible.map((recipe) => {
-          const count = getPortions(portions, recipe.id, recipe.baseServings);
-          const inPlan = plan.includes(recipe.id);
+      {visible.length === 0 ? (
+        <div class="empty-state">
+          <p>No recipes match those filters.</p>
+          <button type="button" class="button-primary" onClick={clearFilters}>
+            Clear filters
+          </button>
+        </div>
+      ) : (
+        <div class="recipe-grid">
+          {visible.map((recipe) => {
+            const count = getPortions(portions, recipe.id, recipe.baseServings);
+            const inPlan = plan.includes(recipe.id);
 
-          return (
-            <article class="recipe-card" key={recipe.id}>
-              <a class="recipe-card__photo photo" href={recipeHref(recipe.id)} aria-hidden="true" tabIndex={-1}
-                 style={recipe.image ? `background-image:url('${href(`/images/recipes/${recipe.image}`)}')` : undefined}>
-                {!recipe.image && <span class="photo__label">photo: {recipe.name}</span>}
-              </a>
-
-              <div class="recipe-card__body">
-                <div class="recipe-card__tags">
-                  <span class="meal-pill">{recipe.mealType}</span>
-                </div>
-
-                <a class="recipe-card__name" href={recipeHref(recipe.id)}>
-                  {recipe.name}
+            return (
+              <article class="recipe-card" key={recipe.id}>
+                <a class="recipe-card__photo photo" href={recipeHref(recipe.id)} aria-hidden="true" tabIndex={-1}
+                   style={recipe.image ? `background-image:url('${href(`/images/recipes/${recipe.image}`)}')` : undefined}>
+                  {!recipe.image && <span class="photo__label">photo: {recipe.name}</span>}
                 </a>
 
-                <div class="recipe-card__meta">
-                  <span>
-                    ⏱ {recipe.prepMins}+{recipe.cookMins} min
-                  </span>
-                  {recipe.freezerLifeMonths !== null && (
-                    <span>❄ freezes {recipe.freezerLifeMonths} mo</span>
-                  )}
-                </div>
+                <div class="recipe-card__body">
+                  <div class="recipe-card__tags">
+                    <span class="meal-pill">{recipe.mealType}</span>
+                  </div>
 
-                <div class="recipe-card__footer">
-                  <Stepper
-                    value={count}
-                    name={`portions for ${recipe.name}`}
-                    label={`${count} ${count === 1 ? 'portion' : 'portions'}`}
-                    onChange={(delta) => changePortions(recipe.id, delta, recipe.baseServings)}
-                  />
+                  <a class="recipe-card__name" href={recipeHref(recipe.id)}>
+                    {recipe.name}
+                  </a>
 
-                  <button
-                    type="button"
-                    class="plan-check"
-                    aria-pressed={inPlan}
-                    onClick={() => togglePlan(recipe.id)}
-                  >
-                    <span class="plan-check__box" aria-hidden="true">
-                      {inPlan ? '✓' : ''}
+                  <div class="recipe-card__meta">
+                    <span>
+                      ⏱ {recipe.prepMins}+{recipe.cookMins} min
                     </span>
-                    <span class="plan-check__label">add to plan</span>
-                  </button>
+                    {recipe.freezerLifeMonths !== null && (
+                      <span>❄ freezes {recipe.freezerLifeMonths} mo</span>
+                    )}
+                  </div>
+
+                  <div class="recipe-card__footer">
+                    <Stepper
+                      value={count}
+                      name={`portions for ${recipe.name}`}
+                      label={`${count} ${count === 1 ? 'portion' : 'portions'}`}
+                      onChange={(delta) => changePortions(recipe.id, delta, recipe.baseServings)}
+                    />
+
+                    <button
+                      type="button"
+                      class="plan-check"
+                      aria-pressed={inPlan}
+                      onClick={() => togglePlan(recipe.id)}
+                    >
+                      <span class="plan-check__box" aria-hidden="true">
+                        {inPlan ? '✓' : ''}
+                      </span>
+                      <span class="plan-check__label">add to plan</span>
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </article>
-          );
-        })}
-      </div>
+              </article>
+            );
+          })}
+        </div>
+      )}
     </>
   );
 }

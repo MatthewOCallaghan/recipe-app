@@ -101,6 +101,21 @@ Run `npm run validate` after editing by hand. It fails the build on unknown
 ingredient references and duplicate ids, and warns about half-finished recipes
 and unused ingredients.
 
+## Finding a recipe
+
+The Recipes page filters on two things at once:
+
+- **Meal type** — the pill row, shown once more than one type exists.
+- **Ingredients** — type into "Search by ingredient" and pick from the
+  suggestions. Each pick becomes a chip, and a recipe has to contain *every*
+  chip to stay in the list, so adding ingredients narrows rather than widens
+  ("what can I make with chicken *and* leeks?").
+
+Only ingredients some recipe actually uses are suggested, so the filter can
+never land on an empty result from one pick alone. The matching rules live in
+`src/lib/ingredient-filter.ts` and are unit tested; the filter state is
+component state, deliberately not persisted like portions and the plan are.
+
 ## Nutrition
 
 Not filled in yet, but the code is ready. Every ingredient has a `nutrition`

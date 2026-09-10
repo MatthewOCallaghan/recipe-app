@@ -2,19 +2,30 @@
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import RecipeGrid, { type RecipeCardData } from '../components/RecipeGrid';
+import { ingredientOptions } from '../lib/ingredient-filter';
+import { indexById } from '../lib/scale';
+import type { Ingredient, Recipe } from '../lib/types';
 
 const entries = await getCollection('recipes');
+const ingredientEntries = await getCollection('ingredients');
 
-const recipes: RecipeCardData[] = entries
-  .map((entry) => ({
-    id: entry.data.id,
-    name: entry.data.name,
-    mealType: entry.data.mealType,
-    baseServings: entry.data.baseServings,
-    prepMins: entry.data.prepMins,
-    cookMins: entry.data.cookMins,
-    freezerLifeMonths: entry.data.freezerLifeMonths,
-    image: entry.data.image,
+const allRecipes = entries.map((entry) => entry.data as Recipe);
+const ingredientsById = indexById(ingredientEntries.map((entry) => entry.data as Ingredient));
+
+// Only the ingredients some recipe uses, so the filter never offers a dead end.
+const options = ingredientOptions(allRecipes, ingredientsById);
+
+const recipes: RecipeCardData[] = allRecipes
+  .map((recipe) => ({
+    id: recipe.id,
+    name: recipe.name,
+    mealType: recipe.mealType,
+    baseServings: recipe.baseServings,
+    prepMins: recipe.prepMins,
+    cookMins: recipe.cookMins,
+    freezerLifeMonths: recipe.freezerLifeMonths,
+    image: recipe.image,
+    ingredientIds: [...new Set(recipe.ingredients.map((line) => line.ingredientId))],
   }))
   .sort((a, b) => a.name.localeCompare(b.name));
 ---
@@ -22,8 +33,8 @@ const recipes: RecipeCardData[] = entries
 <BaseLayout active="recipes">
   <p class="page-intro">
     Tick a recipe to add it to your plan, set portions, then head to <strong>My Plan</strong> for one
-    combined shopping list.
+    combined shopping list. Searching by ingredient narrows the list to recipes using all of them.
   </p>
 
-  <RecipeGrid recipes={recipes} client:load />
+  <RecipeGrid recipes={recipes} ingredientOptions={options} client:load />
 </BaseLayout>
