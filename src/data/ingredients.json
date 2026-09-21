@@ -336,6 +336,12 @@
     "nutrition": null
   },
   {
+    "id": "turkey-thigh-mince",
+    "name": "Turkey thigh mince",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "vanilla-extract",
     "name": "Vanilla extract",
     "defaultUnit": "tsp",

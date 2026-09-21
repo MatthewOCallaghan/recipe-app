@@ -89,7 +89,7 @@
     "prepMins": 15,
     "cookMins": 10,
     "freezerLifeMonths": 3,
-    "image": null,
+    "image": "chicken-nuggets.webp",
     "ingredients": [
       {
         "ingredientId": "breadcrumbs",
@@ -150,7 +150,7 @@
     "prepMins": 30,
     "cookMins": 50,
     "freezerLifeMonths": 3,
-    "image": null,
+    "image": "chicken-mushroom-and-spinach-lasagne.webp",
     "ingredients": [
       {
         "ingredientId": "chicken-breast",
@@ -422,15 +422,15 @@
     "id": "pork-and-apple-traybake",
     "name": "Pork and apple traybake",
     "mealType": "Main",
-    "baseServings": 6,
+    "baseServings": 4,
     "prepMins": 30,
     "cookMins": 65,
     "freezerLifeMonths": 3,
-    "image": null,
+    "image": "pork-and-apple-traybake.webp",
     "ingredients": [
       {
         "ingredientId": "pork-chops",
-        "qty": 1000,
+        "qty": 700,
         "unit": "g"
       },
       {
@@ -447,13 +447,13 @@
       },
       {
         "ingredientId": "parsnip",
-        "qty": 3,
+        "qty": 2,
         "unit": "",
         "prep": "cut into chunks"
       },
       {
         "ingredientId": "apple",
-        "qty": 3,
+        "qty": 2,
         "unit": "",
         "prep": "cored and cut into wedges"
       },
@@ -517,7 +517,7 @@
     "cooking": {
       "standard": [
         "Serve straight away.",
-        "Or, if reheating from chilled, cover with foil and bake at 180°C (fan 160°C) for 20-25 minutes, until piping hot throughout."
+        "Or, if reheating from chilled, cover with foil and bake at 200°C (fan 180°C) for 35 minutes, until piping hot throughout."
       ],
       "fromFrozen": [
         "Cover with foil and bake from frozen at 180°C (fan 160°C) for about 60 minutes.",
@@ -819,11 +819,11 @@
     "id": "turkey-cottage-pie",
     "name": "Turkey cottage pie",
     "mealType": "Main",
-    "baseServings": 6,
+    "baseServings": 4,
     "prepMins": 25,
     "cookMins": 60,
     "freezerLifeMonths": 3,
-    "image": null,
+    "image": "turkey-cottage-pie.webp",
     "ingredients": [
       {
         "ingredientId": "olive-oil",
@@ -832,13 +832,13 @@
       },
       {
         "ingredientId": "onion",
-        "qty": 2,
+        "qty": 3,
         "unit": "",
         "prep": "large, diced"
       },
       {
         "ingredientId": "carrot",
-        "qty": 3,
+        "qty": 6,
         "unit": "",
         "prep": "diced"
       },
@@ -855,7 +855,7 @@
         "prep": "minced"
       },
       {
-        "ingredientId": "turkey-mince",
+        "ingredientId": "turkey-thigh-mince",
         "qty": 1000,
         "unit": "g"
       },
@@ -887,7 +887,7 @@
       },
       {
         "ingredientId": "butter",
-        "qty": 50,
+        "qty": 65,
         "unit": "g"
       },
       {
@@ -905,7 +905,7 @@
       "Boil the potatoes in a large pan of water for 15-20 minutes, until tender.",
       "Meanwhile, heat the olive oil in a large pan over medium heat. Add the onion, carrot and celery and cook for about 8 minutes, until softened.",
       "Add the garlic and cook for 1 minute more.",
-      "Add the turkey mince and cook, breaking it up with a spoon, until browned through.",
+      "Add the turkey thigh mince and cook, breaking it up with a spoon, until browned through.",
       "Stir in the tomato purée, stock, Worcestershire sauce and dried thyme, then simmer uncovered until the filling has thickened.",
       "Drain the potatoes and mash with the butter, milk and black pepper until smooth.",
       "Spread the turkey filling into an oven-safe dish, then top evenly with the mash, roughing up the surface with a fork.",
@@ -913,7 +913,7 @@
     ],
     "cooking": {
       "standard": [
-        "Bake at 200°C (fan 180°C) for 25-30 minutes, until golden and bubbling."
+        "Bake at 200°C (fan 180°C) for 35 minutes, until golden and bubbling."
       ],
       "fromFrozen": [
         "Bake from frozen, covered with foil, at 180°C (fan 160°C) for 1 hour.",
