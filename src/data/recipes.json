@@ -324,6 +324,98 @@
     }
   },
   {
+    "id": "coq-au-vin",
+    "name": "Coq au vin",
+    "mealType": "Main",
+    "baseServings": 4,
+    "prepMins": 20,
+    "cookMins": 60,
+    "freezerLifeMonths": 3,
+    "image": null,
+    "ingredients": [
+      {
+        "ingredientId": "butter",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "oil",
+        "qty": 1,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "chicken-joints",
+        "qty": 4,
+        "unit": ""
+      },
+      {
+        "ingredientId": "bacon",
+        "qty": 100,
+        "unit": "g",
+        "prep": "lean, in one piece, rind trimmed and cut into strips"
+      },
+      {
+        "ingredientId": "onion",
+        "qty": 1,
+        "unit": "",
+        "prep": "large, peeled and sliced"
+      },
+      {
+        "ingredientId": "celery-sticks",
+        "qty": 2,
+        "unit": "",
+        "prep": "scrubbed and chopped"
+      },
+      {
+        "ingredientId": "garlic-cloves",
+        "qty": 1,
+        "unit": "",
+        "prep": "crushed"
+      },
+      {
+        "ingredientId": "plain-flour",
+        "qty": 25,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "red-wine",
+        "qty": 300,
+        "unit": "ml"
+      },
+      {
+        "ingredientId": "beef-or-chicken-stock",
+        "qty": 300,
+        "unit": "ml",
+        "prep": "chicken stock"
+      },
+      {
+        "ingredientId": "mushrooms",
+        "qty": 100,
+        "unit": "g",
+        "prep": "cleaned"
+      }
+    ],
+    "method": [
+      "Melt the butter in a pan with the oil. Fry the chicken joints until brown, then remove and put in a flameproof casserole.",
+      "Add the bacon strips to the pan with the onion and celery and fry until soft. Transfer to the casserole.",
+      "Add the garlic and flour to the fat remaining in the pan and cook until brown.",
+      "Stir in the wine and stock and bring to the boil, season to taste, then pour over the chicken.",
+      "Cover and cook for 45 minutes.",
+      "Add the mushrooms to the casserole and cook for a further 15 minutes, or until the chicken is tender.",
+      "Taste and adjust the seasoning.",
+      "To freeze, turn into a rigid container, cool, cover and label."
+    ],
+    "cooking": {
+      "standard": [
+        "Serve straight away, or if liked, spoon into a heated serving dish."
+      ],
+      "fromFrozen": [
+        "Thaw overnight in the refrigerator, then turn into a casserole, cover and reheat in a moderate oven at 180°C (350°F, Gas Mark 4) for 45-50 minutes.",
+        "If liked, put into a heated serving dish before serving."
+      ]
+    }
+  },
+  {
     "id": "creamy-chicken-leek-and-mushroom",
     "name": "Creamy chicken, leek and mushroom",
     "mealType": "Main",

@@ -6,6 +6,12 @@
     "nutrition": null
   },
   {
+    "id": "bacon",
+    "name": "Bacon",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "bay-leaves",
     "name": "Bay leaves",
     "defaultUnit": "",
@@ -75,6 +81,12 @@
     "id": "chicken-breast",
     "name": "Chicken breast",
     "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "chicken-joints",
+    "name": "Chicken joints",
+    "defaultUnit": "",
     "nutrition": null
   },
   {
@@ -267,6 +279,12 @@
     "id": "red-onion",
     "name": "Red onion",
     "defaultUnit": "",
+    "nutrition": null
+  },
+  {
+    "id": "red-wine",
+    "name": "Red wine",
+    "defaultUnit": "ml",
     "nutrition": null
   },
   {
