@@ -114,8 +114,8 @@
       },
       {
         "ingredientId": "chicken-breast",
-        "qty": 4,
-        "unit": "",
+        "qty": 650,
+        "unit": "g",
         "prep": "skinless and boneless, cut into cubes"
       },
       {
@@ -471,18 +471,18 @@
       },
       {
         "ingredientId": "olive-oil",
-        "qty": 3,
+        "qty": 6,
         "unit": "tbsp"
       },
       {
         "ingredientId": "beef-or-chicken-stock",
-        "qty": 150,
+        "qty": 300,
         "unit": "ml",
         "prep": "chicken stock"
       },
       {
         "ingredientId": "cider-vinegar",
-        "qty": 2,
+        "qty": 4,
         "unit": "tbsp"
       },
       {
@@ -507,21 +507,21 @@
       }
     ],
     "method": [
-      "Heat the oven to 200°C (fan 180°C). Arrange the potatoes, carrot and parsnip in a large roasting tray or oven-safe dish.",
+      "Heat the oven to 200°C (fan 180°C). Arrange the potatoes and parsnip in a large roasting tray and cook for 20 minutes.",
       "Heat half the olive oil in a large pan over medium-high heat and sear the pork chops on both sides until browned.",
-      "Add the seared pork chops, red onion and garlic to the tray with the potatoes and root vegetables. Whisk the remaining olive oil with the stock and cider vinegar, then pour over. Sprinkle with the dried sage, dried thyme, dried rosemary and black pepper, and toss everything to coat.",
-      "Roast uncovered for about 30 minutes, turning once, until the potatoes are starting to turn golden.",
-      "Tuck the apple wedges in among the other ingredients and roast for a further 20-25 minutes, until the pork chops are cooked through (at least 75°C in the centre) and the potatoes and vegetables are tender.",
+      "Add the seared pork chops, carrots, red onion and garlic to the tray with the potatoes and parsnip. Whisk the remaining olive oil with the stock and cider vinegar, then pour over. Sprinkle with the dried sage, dried thyme, dried rosemary and black pepper, and toss everything to coat.",
+      "Roast covered for 10 minutes.",
+      "Tuck the apple wedges in among the other ingredients and roast covered for a further 20 minutes, until the pork chops are cooked through (at least 75°C in the centre) and the potatoes and vegetables are tender.",
       "To freeze, cool completely then cover tightly and freeze in the dish."
     ],
     "cooking": {
       "standard": [
         "Serve straight away.",
-        "Or, if reheating from chilled, cover with foil and bake at 200°C (fan 180°C) for 35 minutes, until piping hot throughout."
+        "Or, if reheating from chilled, cover with foil and bake at 200°C (fan 180°C) for 35 minutes, until piping hot throughout. If desired, make more of the stock, cider vinegar and olive oil mix to pour over the dish."
       ],
       "fromFrozen": [
         "Cover with foil and bake from frozen at 180°C (fan 160°C) for about 60 minutes.",
-        "Uncover, stir and turn everything, then bake at 200°C (fan 180°C) for a further 15-25 minutes, until piping hot throughout. Check the centre with a thermometer before serving, as a fuller dish may need extra time."
+        "Uncover, stir and turn everything, then bake at 200°C (fan 180°C) for a further 15-25 minutes, until piping hot throughout. If desired, make more of the stock, cider vinegar and olive oil mix to pour over the dish. Check the centre with a thermometer before serving, as a fuller dish may need extra time."
       ]
     }
   },
@@ -663,7 +663,7 @@
     "prepMins": 15,
     "cookMins": 15,
     "freezerLifeMonths": 3,
-    "image": null,
+    "image": "salmon-fried-rice.webp",
     "ingredients": [
       {
         "ingredientId": "plain-rice",
@@ -677,30 +677,30 @@
       },
       {
         "ingredientId": "salmon-fillets",
-        "qty": 3,
-        "unit": ""
+        "qty": 520,
+        "unit": "g"
       },
       {
         "ingredientId": "carrot",
-        "qty": 2,
+        "qty": 4,
         "unit": "",
         "prep": "peeled and sliced into ribbons"
       },
       {
         "ingredientId": "onion",
-        "qty": 1,
+        "qty": 2,
         "unit": "",
         "prep": "chopped"
       },
       {
         "ingredientId": "bell-pepper",
-        "qty": 1,
+        "qty": 2,
         "unit": "",
         "prep": "deseeded and chopped"
       },
       {
         "ingredientId": "soy-sauce",
-        "qty": 120,
+        "qty": 60,
         "unit": "ml"
       },
       {
@@ -720,11 +720,12 @@
     "cooking": {
       "standard": [
         "Serve straight away, spooned into bowls.",
-        "Or, if reheating from chilled, warm through in a pan or microwave for 3-4 minutes, until piping hot."
+        "Or, if reheating from chilled, warm through in a pan or microwave for 3-4 minutes, until piping hot.",
+        "Alternatively, cook from chilled in an oven preheated to 200°C (fan 180°C) / gas mark 4 for 35 minutes, stirring occasionally, until piping hot."
       ],
       "fromFrozen": [
         "Defrost fully in the fridge, then reheat in a microwave or pan for 3-4 minutes, until piping hot.",
-        "Or cook from frozen in an oven preheated to 180°C (fan 160°C) / gas mark 4 for 30 minutes, until piping hot."
+        "Or cook from frozen in an oven preheated to 200°C (fan 180°C) / gas mark 4 for 50 minutes, stirring occasionally, until piping hot."
       ]
     }
   },
