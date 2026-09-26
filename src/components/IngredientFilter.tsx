@@ -4,8 +4,8 @@ import { suggestIngredients, type IngredientOption } from '../lib/ingredient-fil
 /**
  * Pick one or more ingredients to narrow the recipe list by. Typing filters a
  * suggestion list drawn from the ingredients recipes actually use, so you can
- * only search for something that exists; picking one turns it into a chip and
- * clears the box, ready for the next.
+ * only search for something that exists; picking one turns it into a chip,
+ * clears the box, and leaves the suggestion list open, ready for the next.
  *
  * The chosen ids live in the parent (RecipeGrid) alongside the meal-type
  * filter — this component owns only the typing and the open/highlight state of
@@ -25,9 +25,6 @@ export default function IngredientFilter({ options, selected, onChange }: Props)
   const [open, setOpen] = useState(false);
   const [highlight, setHighlight] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
-  // Set while returning focus to the box after a pick, so the focus handler
-  // does not immediately reopen the list the pick just closed.
-  const refocusing = useRef(false);
   const listId = useId();
 
   const namesById = useMemo(
@@ -46,10 +43,7 @@ export default function IngredientFilter({ options, selected, onChange }: Props)
     if (!selected.includes(id)) onChange([...selected, id]);
     setQuery('');
     setHighlight(0);
-    setOpen(false);
-    refocusing.current = true;
     inputRef.current?.focus();
-    refocusing.current = false;
   }
 
   function remove(id: string): void {
@@ -137,9 +131,7 @@ export default function IngredientFilter({ options, selected, onChange }: Props)
             setHighlight(0);
             setOpen(true);
           }}
-          onFocus={() => {
-            if (!refocusing.current) setOpen(true);
-          }}
+          onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
         />
 
