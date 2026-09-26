@@ -383,10 +383,9 @@
         "unit": "ml"
       },
       {
-        "ingredientId": "beef-or-chicken-stock",
+        "ingredientId": "chicken-stock",
         "qty": 300,
-        "unit": "ml",
-        "prep": "chicken stock"
+        "unit": "ml"
       },
       {
         "ingredientId": "mushrooms",
@@ -468,10 +467,9 @@
         "prep": "baby"
       },
       {
-        "ingredientId": "beef-or-chicken-stock",
+        "ingredientId": "chicken-stock",
         "qty": 400,
-        "unit": "ml",
-        "prep": "chicken stock"
+        "unit": "ml"
       },
       {
         "ingredientId": "creme-fraiche",
@@ -567,10 +565,9 @@
         "unit": "tbsp"
       },
       {
-        "ingredientId": "beef-or-chicken-stock",
+        "ingredientId": "chicken-stock",
         "qty": 300,
-        "unit": "ml",
-        "prep": "chicken stock"
+        "unit": "ml"
       },
       {
         "ingredientId": "cider-vinegar",
@@ -958,7 +955,7 @@
         "unit": "tbsp"
       },
       {
-        "ingredientId": "beef-or-chicken-stock",
+        "ingredientId": "chicken-stock",
         "qty": 500,
         "unit": "ml"
       },

@@ -18,12 +18,6 @@
     "nutrition": null
   },
   {
-    "id": "beef-or-chicken-stock",
-    "name": "Beef or chicken stock",
-    "defaultUnit": "ml",
-    "nutrition": null
-  },
-  {
     "id": "bell-pepper",
     "name": "Bell pepper",
     "defaultUnit": "",
@@ -93,6 +87,12 @@
     "id": "chicken-thighs",
     "name": "Chicken thighs",
     "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "chicken-stock",
+    "name": "Chicken stock",
+    "defaultUnit": "ml",
     "nutrition": null
   },
   {
