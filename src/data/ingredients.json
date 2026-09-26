@@ -6,15 +6,15 @@
     "nutrition": null
   },
   {
-    "id": "bay-leaves",
-    "name": "Bay leaves",
-    "defaultUnit": "",
+    "id": "bacon",
+    "name": "Bacon",
+    "defaultUnit": "g",
     "nutrition": null
   },
   {
-    "id": "beef-or-chicken-stock",
-    "name": "Beef or chicken stock",
-    "defaultUnit": "ml",
+    "id": "bay-leaves",
+    "name": "Bay leaves",
+    "defaultUnit": "",
     "nutrition": null
   },
   {
@@ -78,9 +78,21 @@
     "nutrition": null
   },
   {
+    "id": "chicken-joints",
+    "name": "Chicken joints",
+    "defaultUnit": "",
+    "nutrition": null
+  },
+  {
     "id": "chicken-thighs",
     "name": "Chicken thighs",
     "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "chicken-stock",
+    "name": "Chicken stock",
+    "defaultUnit": "ml",
     "nutrition": null
   },
   {
@@ -267,6 +279,12 @@
     "id": "red-onion",
     "name": "Red onion",
     "defaultUnit": "",
+    "nutrition": null
+  },
+  {
+    "id": "red-wine",
+    "name": "Red wine",
+    "defaultUnit": "ml",
     "nutrition": null
   },
   {
