@@ -1019,7 +1019,7 @@
     "prepMins": 25,
     "cookMins": 55,
     "freezerLifeMonths": 3,
-    "image": null,
+    "image": "turkey-stuffed-peppers.webp",
     "ingredients": [
       {
         "ingredientId": "bell-pepper",
