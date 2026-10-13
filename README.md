@@ -24,6 +24,7 @@ npm run dev        # http://localhost:4321/recipe-app/
 | `npm run validate` | Check the data files on their own |
 | `npm run add:ingredient` | Add an ingredient |
 | `npm run add:recipe` | Scaffold a recipe stub |
+| `npm run add:photo` | Add or replace a recipe's photo |
 
 ## The data
 
@@ -96,6 +97,22 @@ Field notes:
   cooked from frozen and the tab disappears; the standard steps still show.
 - **`image`** — a filename in `public/images/recipes/`, or `null` for the
   striped placeholder.
+
+### Adding a photo
+
+```bash
+npm run add:photo -- creamy-chicken-casserole ~/Downloads/IMG_1234.jpg
+```
+
+Pass the recipe id and the original photo (JPEG or PNG; export iPhone HEIC
+photos as JPEG first). The script turns it upright, scales it down to 1600px wide,
+saves it as WebP at quality 80 in `public/images/recipes/<recipe-id>.webp` with
+location and camera metadata stripped, and sets the recipe's `image`. Run it
+again to swap in a better shot.
+
+For the best result, shoot from directly overhead with the dish centred, in a
+landscape 4:3 frame. Crop beforehand if there's a lot of empty table around the
+plate — the script resizes but never crops.
 
 Run `npm run validate` after editing by hand. It fails the build on unknown
 ingredient references and duplicate ids, and warns about half-finished recipes

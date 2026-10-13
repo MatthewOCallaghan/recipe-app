@@ -415,14 +415,14 @@
     }
   },
   {
-    "id": "creamy-chicken-leek-and-mushroom",
-    "name": "Creamy chicken, leek and mushroom",
+    "id": "creamy-chicken-casserole",
+    "name": "Creamy chicken casserole",
     "mealType": "Main",
     "baseServings": 6,
     "prepMins": 20,
     "cookMins": 40,
     "freezerLifeMonths": 3,
-    "image": null,
+    "image": "creamy-chicken-casserole.webp",
     "ingredients": [
       {
         "ingredientId": "chicken-thighs",
