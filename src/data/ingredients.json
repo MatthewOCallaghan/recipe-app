@@ -180,12 +180,6 @@
     "nutrition": null
   },
   {
-    "id": "golden-syrup",
-    "name": "Golden syrup",
-    "defaultUnit": "g",
-    "nutrition": null
-  },
-  {
     "id": "ground-cumin",
     "name": "Ground cumin",
     "defaultUnit": "tsp",

@@ -1,5 +1,80 @@
 [
   {
+    "id": "brownies",
+    "name": "Brownies",
+    "mealType": "Dessert",
+    "baseServings": 9,
+    "prepMins": 20,
+    "cookMins": 40,
+    "freezerLifeMonths": 3,
+    "image": "brownies.webp",
+    "ingredients": [
+      {
+        "ingredientId": "butter",
+        "qty": 115,
+        "unit": "g",
+        "prep": "plus extra for greasing"
+      },
+      {
+        "ingredientId": "plain-chocolate",
+        "qty": 115,
+        "unit": "g",
+        "prep": "broken into pieces"
+      },
+      {
+        "ingredientId": "golden-caster-sugar",
+        "qty": 300,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "salt",
+        "qty": 1,
+        "unit": "pinch"
+      },
+      {
+        "ingredientId": "vanilla-extract",
+        "qty": 1,
+        "unit": "tsp"
+      },
+      {
+        "ingredientId": "large-eggs",
+        "qty": 2,
+        "unit": ""
+      },
+      {
+        "ingredientId": "plain-flour",
+        "qty": 140,
+        "unit": "g"
+      },
+      {
+        "ingredientId": "cocoa-powder",
+        "qty": 2,
+        "unit": "tbsp"
+      },
+      {
+        "ingredientId": "white-chocolate-chips",
+        "qty": 100,
+        "unit": "g"
+      }
+    ],
+    "method": [
+      "Preheat the oven to 180°C / gas mark 4. Grease and line the base of an 18cm (7-inch) square cake tin.",
+      "Place the butter and chocolate in a small heatproof bowl set over a saucepan of gently simmering water until melted. Stir until smooth, then leave to cool slightly.",
+      "Stir in the sugar, salt and vanilla extract. Add the eggs, one at a time, and stir until blended.",
+      "Sift the flour and cocoa powder into the mixture and beat until smooth. Stir in the white chocolate chips, then pour the mixture into the prepared tin.",
+      "Bake in the preheated oven for 35-40 minutes, until the top is evenly coloured and a skewer inserted into the centre comes out almost clean. Leave to cool slightly.",
+      "To freeze, leave the brownies to cool completely, then wrap them individually in cling film."
+    ],
+    "cooking": {
+      "standard": [
+        "Cut into squares and serve warm or at room temperature."
+      ],
+      "fromFrozen": [
+        "Defrost at room temperature for 1-2 hours, or in the microwave for 1 minute."
+      ]
+    }
+  },
+  {
     "id": "chicken-enchiladas",
     "name": "Chicken Enchiladas",
     "mealType": "Main",
@@ -505,120 +580,6 @@
       ],
       "fromFrozen": [
         "Cover with foil and bake from frozen at 180°C (fan 160°C) for 60-75 minutes, stirring gently partway through once the sauce has loosened enough, until piping hot throughout."
-      ]
-    }
-  },
-  {
-    "id": "double-chocolate-brownies",
-    "name": "Double chocolate brownies",
-    "mealType": "Dessert",
-    "baseServings": 9,
-    "prepMins": 20,
-    "cookMins": 40,
-    "freezerLifeMonths": 3,
-    "image": "double-chocolate-brownies.webp",
-    "ingredients": [
-      {
-        "ingredientId": "butter",
-        "qty": 115,
-        "unit": "g",
-        "prep": "plus extra for greasing"
-      },
-      {
-        "ingredientId": "plain-chocolate",
-        "qty": 115,
-        "unit": "g",
-        "prep": "broken into pieces"
-      },
-      {
-        "ingredientId": "golden-caster-sugar",
-        "qty": 300,
-        "unit": "g"
-      },
-      {
-        "ingredientId": "salt",
-        "qty": 1,
-        "unit": "pinch"
-      },
-      {
-        "ingredientId": "vanilla-extract",
-        "qty": 1,
-        "unit": "tsp"
-      },
-      {
-        "ingredientId": "large-eggs",
-        "qty": 2,
-        "unit": ""
-      },
-      {
-        "ingredientId": "plain-flour",
-        "qty": 140,
-        "unit": "g"
-      },
-      {
-        "ingredientId": "cocoa-powder",
-        "qty": 2,
-        "unit": "tbsp"
-      },
-      {
-        "ingredientId": "white-chocolate-chips",
-        "qty": 100,
-        "unit": "g"
-      },
-      {
-        "ingredientId": "butter",
-        "qty": 55,
-        "unit": "g",
-        "prep": "for the fudge sauce"
-      },
-      {
-        "ingredientId": "golden-caster-sugar",
-        "qty": 225,
-        "unit": "g",
-        "prep": "for the fudge sauce"
-      },
-      {
-        "ingredientId": "milk",
-        "qty": 150,
-        "unit": "ml",
-        "prep": "for the fudge sauce"
-      },
-      {
-        "ingredientId": "double-cream",
-        "qty": 250,
-        "unit": "ml",
-        "prep": "for the fudge sauce"
-      },
-      {
-        "ingredientId": "golden-syrup",
-        "qty": 225,
-        "unit": "g",
-        "prep": "for the fudge sauce"
-      },
-      {
-        "ingredientId": "plain-chocolate",
-        "qty": 200,
-        "unit": "g",
-        "prep": "broken into pieces, for the fudge sauce"
-      }
-    ],
-    "method": [
-      "Preheat the oven to 180°C / gas mark 4. Grease and line the base of an 18cm (7-inch) square cake tin.",
-      "Place the butter and chocolate in a small heatproof bowl set over a saucepan of gently simmering water until melted. Stir until smooth, then leave to cool slightly.",
-      "Stir in the sugar, salt and vanilla extract. Add the eggs, one at a time, and stir until blended.",
-      "Sift the flour and cocoa powder into the mixture and beat until smooth. Stir in the white chocolate chips, then pour the mixture into the prepared tin.",
-      "Bake in the preheated oven for 35-40 minutes, until the top is evenly coloured and a skewer inserted into the centre comes out almost clean. Leave to cool slightly while you prepare the sauce.",
-      "To make the fudge sauce, place the butter, sugar, milk, cream and golden syrup in a small saucepan and heat gently until the sugar has dissolved.",
-      "Bring to the boil and stir for 10 minutes, until the mixture is caramel-coloured. Remove from the heat, add the chocolate and stir until smooth.",
-      "To freeze, leave the brownies to cool completely, then wrap them individually in cling film. Freeze the sauce separately in a freezer-proof container."
-    ],
-    "cooking": {
-      "standard": [
-        "Cut the brownies into squares and serve immediately with the warm fudge sauce."
-      ],
-      "fromFrozen": [
-        "Defrost the brownies at room temperature for 1-2 hours, or in the microwave for 1 minute.",
-        "Defrost the sauce in the fridge overnight, then warm gently in a pan, stirring until smooth."
       ]
     }
   },
