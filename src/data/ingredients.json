@@ -84,15 +84,15 @@
     "nutrition": null
   },
   {
-    "id": "chicken-thighs",
-    "name": "Chicken thighs",
-    "defaultUnit": "g",
-    "nutrition": null
-  },
-  {
     "id": "chicken-stock",
     "name": "Chicken stock",
     "defaultUnit": "ml",
+    "nutrition": null
+  },
+  {
+    "id": "chicken-thighs",
+    "name": "Chicken thighs",
+    "defaultUnit": "g",
     "nutrition": null
   },
   {
@@ -110,6 +110,12 @@
   {
     "id": "cider-vinegar",
     "name": "Cider vinegar",
+    "defaultUnit": "tbsp",
+    "nutrition": null
+  },
+  {
+    "id": "cocoa-powder",
+    "name": "Cocoa powder",
     "defaultUnit": "tbsp",
     "nutrition": null
   },
@@ -165,6 +171,18 @@
     "id": "garlic-cloves",
     "name": "Garlic cloves",
     "defaultUnit": "",
+    "nutrition": null
+  },
+  {
+    "id": "golden-caster-sugar",
+    "name": "Golden caster sugar",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
+    "id": "golden-syrup",
+    "name": "Golden syrup",
+    "defaultUnit": "g",
     "nutrition": null
   },
   {
@@ -252,6 +270,12 @@
     "nutrition": null
   },
   {
+    "id": "plain-chocolate",
+    "name": "Plain chocolate",
+    "defaultUnit": "g",
+    "nutrition": null
+  },
+  {
     "id": "plain-flour",
     "name": "Plain flour",
     "defaultUnit": "g",
@@ -312,6 +336,12 @@
     "nutrition": null
   },
   {
+    "id": "salt",
+    "name": "Salt",
+    "defaultUnit": "pinch",
+    "nutrition": null
+  },
+  {
     "id": "soft-light-brown-sugar",
     "name": "Soft light brown sugar",
     "defaultUnit": "g",
@@ -363,6 +393,12 @@
     "id": "vanilla-extract",
     "name": "Vanilla extract",
     "defaultUnit": "tsp",
+    "nutrition": null
+  },
+  {
+    "id": "white-chocolate-chips",
+    "name": "White chocolate chips",
+    "defaultUnit": "g",
     "nutrition": null
   },
   {

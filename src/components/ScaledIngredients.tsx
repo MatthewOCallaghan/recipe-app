@@ -21,8 +21,8 @@ export default function ScaledIngredients({ recipe, ingredientsById }: Props) {
 
   return (
     <div class="ingredient-list">
-      {lines.map((line) => (
-        <div class="ingredient-row" key={line.ingredientId + line.unit}>
+      {lines.map((line, index) => (
+        <div class="ingredient-row" key={index}>
           <span>{line.label}</span>
           <span class="ingredient-row__amount">{line.display}</span>
         </div>
